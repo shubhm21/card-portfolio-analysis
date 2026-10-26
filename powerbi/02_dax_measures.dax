@@ -1,0 +1,95 @@
+// =========================================================
+// DAX — create a blank table called _Measures
+// (Home > Enter data > OK) and add each measure to it.
+// Model: dim_client[client_id] 1 ──► * fact_cards[client_id], single direction
+//        DimDate[Date] 1 ──► * fact_cards[acct_open_date]  (active)
+//        DimDate[Date] 1 ──► * fact_cards[expires]         (inactive, used via USERELATIONSHIP)
+// =========================================================
+
+// ---------- Date table (Modeling > New table) ----------
+DimDate =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 1991, 1, 1 ), DATE ( 2025, 12, 31 ) ),
+    "Year", YEAR ( [Date] ),
+    "Month", FORMAT ( [Date], "MMM" ),
+    "MonthNum", MONTH ( [Date] ),
+    "YearMonth", FORMAT ( [Date], "YYYY-MM" )
+)
+
+// ---------- Core volume ----------
+Total Cards = COUNTROWS ( fact_cards )
+
+Clients = DISTINCTCOUNT ( fact_cards[client_id] )
+
+Cards per Client = DIVIDE ( [Total Cards], [Clients] )
+
+// ---------- Credit limits ----------
+Total Credit Limit = SUM ( fact_cards[credit_limit] )
+
+Avg Credit Limit = AVERAGE ( fact_cards[credit_limit] )
+
+Median Credit Limit = MEDIAN ( fact_cards[credit_limit] )
+
+Avg Limit (excl. Prepaid) =
+CALCULATE ( [Avg Credit Limit], fact_cards[card_type] <> "Debit (Prepaid)" )
+
+% of Total Limit =
+DIVIDE ( [Total Credit Limit], CALCULATE ( [Total Credit Limit], ALL ( fact_cards ) ) )
+
+// ---------- Security posture ----------
+Chip Adoption % =
+DIVIDE ( CALCULATE ( [Total Cards], fact_cards[has_chip] = TRUE () ), [Total Cards] )
+
+No-Chip Cards = CALCULATE ( [Total Cards], fact_cards[flag_no_chip] = TRUE () )
+
+Stale PIN % =
+DIVIDE ( CALCULATE ( [Total Cards], fact_cards[flag_stale_pin] = TRUE () ), [Total Cards] )
+
+High Risk Cards = CALCULATE ( [Total Cards], fact_cards[risk_tier] = "High" )
+
+High Risk % = DIVIDE ( [High Risk Cards], [Total Cards] )
+
+Avg PIN Age (yrs) = AVERAGE ( fact_cards[pin_age_years] )
+
+Dark Web Cards = CALCULATE ( [Total Cards], fact_cards[card_on_dark_web] = TRUE () )
+
+// ---------- Lifecycle ----------
+Expired Cards = CALCULATE ( [Total Cards], fact_cards[expiry_status] = "Expired" )
+
+Expiring ≤12 mo = CALCULATE ( [Total Cards], fact_cards[expiry_status] = "Expiring within 12 mo" )
+
+Reissue Pipeline = [Expired Cards] + [Expiring ≤12 mo]
+
+Cards Expiring (by expiry date) =
+CALCULATE ( [Total Cards], USERELATIONSHIP ( DimDate[Date], fact_cards[expires] ) )
+
+Cards Opened YoY Δ =
+VAR CurYear = MAX ( DimDate[Year] )
+RETURN
+    [Total Cards] - CALCULATE ( [Total Cards], DimDate[Year] = CurYear - 1, ALL ( DimDate ) )
+
+Cumulative Cards Opened =
+CALCULATE (
+    [Total Cards],
+    FILTER ( ALL ( DimDate ), DimDate[Date] <= MAX ( DimDate[Date] ) )
+)
+
+// ---------- Client level ----------
+Multi-Brand Clients =
+COUNTROWS ( FILTER ( dim_client, dim_client[brands] >= 2 ) )
+
+Top Client Limit Rank =
+RANKX ( ALL ( dim_client[client_id] ), [Total Credit Limit], , DESC, DENSE )
+
+// ---------- Data quality ----------
+2020 Batch Cards = CALCULATE ( [Total Cards], fact_cards[dq_2020_batch] = TRUE () )
+
+2020 Batch % = DIVIDE ( [2020 Batch Cards], [Total Cards] )
+
+// ---------- Dynamic title helper ----------
+Selected Brand Label =
+IF (
+    ISFILTERED ( fact_cards[card_brand] ),
+    CONCATENATEX ( VALUES ( fact_cards[card_brand] ), fact_cards[card_brand], ", " ),
+    "All brands"
+)

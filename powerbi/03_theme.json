@@ -1,0 +1,21 @@
+{
+  "name": "Card Portfolio",
+  "dataColors": ["#1F4E79", "#2E86AB", "#F18F01", "#C73E1D", "#3B8B5A", "#6C757D", "#A23B72", "#E9C46A"],
+  "background": "#FFFFFF",
+  "foreground": "#1B1B1B",
+  "tableAccent": "#1F4E79",
+  "good": "#3B8B5A",
+  "neutral": "#F18F01",
+  "bad": "#C73E1D",
+  "visualStyles": {
+    "*": { "*": {
+      "title": [{ "fontSize": 12, "fontFamily": "Segoe UI Semibold", "fontColor": { "solid": { "color": "#1B1B1B" } } }],
+      "border": [{ "show": false }],
+      "dropShadow": [{ "show": false }]
+    }},
+    "card": { "*": {
+      "labels": [{ "fontSize": 26, "color": { "solid": { "color": "#1F4E79" } } }],
+      "categoryLabels": [{ "fontSize": 10 }]
+    }}
+  }
+}
