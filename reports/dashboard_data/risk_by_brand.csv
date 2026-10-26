@@ -1,0 +1,145 @@
+f_brand,f_type,f_batch,card_brand,risk_tier,cards,share_of_brand
+All,All,include,Amex,High,44,0.1095
+All,All,include,Amex,Low,229,0.5697
+All,All,include,Amex,Medium,129,0.3209
+All,All,include,Discover,High,24,0.1148
+All,All,include,Discover,Low,111,0.5311
+All,All,include,Discover,Medium,74,0.3541
+All,All,include,Mastercard,High,356,0.1109
+All,All,include,Mastercard,Low,1673,0.5213
+All,All,include,Mastercard,Medium,1180,0.3677
+All,All,include,Visa,High,244,0.1049
+All,All,include,Visa,Low,1187,0.5103
+All,All,include,Visa,Medium,895,0.3848
+All,All,exclude,Amex,High,43,0.1331
+All,All,exclude,Amex,Low,159,0.4923
+All,All,exclude,Amex,Medium,121,0.3746
+All,All,exclude,Discover,High,24,0.1404
+All,All,exclude,Discover,Low,79,0.462
+All,All,exclude,Discover,Medium,68,0.3977
+All,All,exclude,Mastercard,High,349,0.1343
+All,All,exclude,Mastercard,Low,1160,0.4465
+All,All,exclude,Mastercard,Medium,1089,0.4192
+All,All,exclude,Visa,High,241,0.1285
+All,All,exclude,Visa,Low,817,0.4355
+All,All,exclude,Visa,Medium,818,0.436
+All,Credit,include,Amex,High,44,0.1095
+All,Credit,include,Amex,Low,229,0.5697
+All,Credit,include,Amex,Medium,129,0.3209
+All,Credit,include,Discover,High,24,0.1148
+All,Credit,include,Discover,Low,111,0.5311
+All,Credit,include,Discover,Medium,74,0.3541
+All,Credit,include,Mastercard,High,74,0.1165
+All,Credit,include,Mastercard,Low,318,0.5008
+All,Credit,include,Mastercard,Medium,243,0.3827
+All,Credit,include,Visa,High,92,0.1134
+All,Credit,include,Visa,Low,424,0.5228
+All,Credit,include,Visa,Medium,295,0.3637
+All,Credit,exclude,Amex,High,43,0.1331
+All,Credit,exclude,Amex,Low,159,0.4923
+All,Credit,exclude,Amex,Medium,121,0.3746
+All,Credit,exclude,Discover,High,24,0.1404
+All,Credit,exclude,Discover,Low,79,0.462
+All,Credit,exclude,Discover,Medium,68,0.3977
+All,Credit,exclude,Mastercard,High,73,0.1443
+All,Credit,exclude,Mastercard,Low,208,0.4111
+All,Credit,exclude,Mastercard,Medium,225,0.4447
+All,Credit,exclude,Visa,High,92,0.1405
+All,Credit,exclude,Visa,Low,300,0.458
+All,Credit,exclude,Visa,Medium,263,0.4015
+All,Debit,include,Mastercard,High,231,0.1054
+All,Debit,include,Mastercard,Low,1154,0.5267
+All,Debit,include,Mastercard,Medium,806,0.3679
+All,Debit,include,Visa,High,136,0.103
+All,Debit,include,Visa,Low,660,0.5
+All,Debit,include,Visa,Medium,524,0.397
+All,Debit,exclude,Mastercard,High,225,0.1256
+All,Debit,exclude,Mastercard,Low,818,0.4567
+All,Debit,exclude,Mastercard,Medium,748,0.4176
+All,Debit,exclude,Visa,High,135,0.1257
+All,Debit,exclude,Visa,Low,453,0.4218
+All,Debit,exclude,Visa,Medium,486,0.4525
+All,Debit (Prepaid),include,Mastercard,High,51,0.1332
+All,Debit (Prepaid),include,Mastercard,Low,201,0.5248
+All,Debit (Prepaid),include,Mastercard,Medium,131,0.342
+All,Debit (Prepaid),include,Visa,High,16,0.0821
+All,Debit (Prepaid),include,Visa,Low,103,0.5282
+All,Debit (Prepaid),include,Visa,Medium,76,0.3897
+All,Debit (Prepaid),exclude,Mastercard,High,51,0.1694
+All,Debit (Prepaid),exclude,Mastercard,Low,134,0.4452
+All,Debit (Prepaid),exclude,Mastercard,Medium,116,0.3854
+All,Debit (Prepaid),exclude,Visa,High,14,0.0952
+All,Debit (Prepaid),exclude,Visa,Low,64,0.4354
+All,Debit (Prepaid),exclude,Visa,Medium,69,0.4694
+Amex,All,include,Amex,High,44,0.1095
+Amex,All,include,Amex,Low,229,0.5697
+Amex,All,include,Amex,Medium,129,0.3209
+Amex,All,exclude,Amex,High,43,0.1331
+Amex,All,exclude,Amex,Low,159,0.4923
+Amex,All,exclude,Amex,Medium,121,0.3746
+Amex,Credit,include,Amex,High,44,0.1095
+Amex,Credit,include,Amex,Low,229,0.5697
+Amex,Credit,include,Amex,Medium,129,0.3209
+Amex,Credit,exclude,Amex,High,43,0.1331
+Amex,Credit,exclude,Amex,Low,159,0.4923
+Amex,Credit,exclude,Amex,Medium,121,0.3746
+Discover,All,include,Discover,High,24,0.1148
+Discover,All,include,Discover,Low,111,0.5311
+Discover,All,include,Discover,Medium,74,0.3541
+Discover,All,exclude,Discover,High,24,0.1404
+Discover,All,exclude,Discover,Low,79,0.462
+Discover,All,exclude,Discover,Medium,68,0.3977
+Discover,Credit,include,Discover,High,24,0.1148
+Discover,Credit,include,Discover,Low,111,0.5311
+Discover,Credit,include,Discover,Medium,74,0.3541
+Discover,Credit,exclude,Discover,High,24,0.1404
+Discover,Credit,exclude,Discover,Low,79,0.462
+Discover,Credit,exclude,Discover,Medium,68,0.3977
+Mastercard,All,include,Mastercard,High,356,0.1109
+Mastercard,All,include,Mastercard,Low,1673,0.5213
+Mastercard,All,include,Mastercard,Medium,1180,0.3677
+Mastercard,All,exclude,Mastercard,High,349,0.1343
+Mastercard,All,exclude,Mastercard,Low,1160,0.4465
+Mastercard,All,exclude,Mastercard,Medium,1089,0.4192
+Mastercard,Credit,include,Mastercard,High,74,0.1165
+Mastercard,Credit,include,Mastercard,Low,318,0.5008
+Mastercard,Credit,include,Mastercard,Medium,243,0.3827
+Mastercard,Credit,exclude,Mastercard,High,73,0.1443
+Mastercard,Credit,exclude,Mastercard,Low,208,0.4111
+Mastercard,Credit,exclude,Mastercard,Medium,225,0.4447
+Mastercard,Debit,include,Mastercard,High,231,0.1054
+Mastercard,Debit,include,Mastercard,Low,1154,0.5267
+Mastercard,Debit,include,Mastercard,Medium,806,0.3679
+Mastercard,Debit,exclude,Mastercard,High,225,0.1256
+Mastercard,Debit,exclude,Mastercard,Low,818,0.4567
+Mastercard,Debit,exclude,Mastercard,Medium,748,0.4176
+Mastercard,Debit (Prepaid),include,Mastercard,High,51,0.1332
+Mastercard,Debit (Prepaid),include,Mastercard,Low,201,0.5248
+Mastercard,Debit (Prepaid),include,Mastercard,Medium,131,0.342
+Mastercard,Debit (Prepaid),exclude,Mastercard,High,51,0.1694
+Mastercard,Debit (Prepaid),exclude,Mastercard,Low,134,0.4452
+Mastercard,Debit (Prepaid),exclude,Mastercard,Medium,116,0.3854
+Visa,All,include,Visa,High,244,0.1049
+Visa,All,include,Visa,Low,1187,0.5103
+Visa,All,include,Visa,Medium,895,0.3848
+Visa,All,exclude,Visa,High,241,0.1285
+Visa,All,exclude,Visa,Low,817,0.4355
+Visa,All,exclude,Visa,Medium,818,0.436
+Visa,Credit,include,Visa,High,92,0.1134
+Visa,Credit,include,Visa,Low,424,0.5228
+Visa,Credit,include,Visa,Medium,295,0.3637
+Visa,Credit,exclude,Visa,High,92,0.1405
+Visa,Credit,exclude,Visa,Low,300,0.458
+Visa,Credit,exclude,Visa,Medium,263,0.4015
+Visa,Debit,include,Visa,High,136,0.103
+Visa,Debit,include,Visa,Low,660,0.5
+Visa,Debit,include,Visa,Medium,524,0.397
+Visa,Debit,exclude,Visa,High,135,0.1257
+Visa,Debit,exclude,Visa,Low,453,0.4218
+Visa,Debit,exclude,Visa,Medium,486,0.4525
+Visa,Debit (Prepaid),include,Visa,High,16,0.0821
+Visa,Debit (Prepaid),include,Visa,Low,103,0.5282
+Visa,Debit (Prepaid),include,Visa,Medium,76,0.3897
+Visa,Debit (Prepaid),exclude,Visa,High,14,0.0952
+Visa,Debit (Prepaid),exclude,Visa,Low,64,0.4354
+Visa,Debit (Prepaid),exclude,Visa,Medium,69,0.4694

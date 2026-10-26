@@ -1,0 +1,150 @@
+f_brand,f_type,f_batch,cards_held,clients
+All,All,include,1,416
+All,All,include,2,388
+All,All,include,3,449
+All,All,include,4,376
+All,All,include,5,206
+All,All,include,6,105
+All,All,include,7,40
+All,All,include,8,17
+All,All,include,9,3
+All,All,exclude,1,355
+All,All,exclude,2,287
+All,All,exclude,3,367
+All,All,exclude,4,283
+All,All,exclude,5,190
+All,All,exclude,6,91
+All,All,exclude,7,27
+All,All,exclude,8,14
+All,All,exclude,9,1
+All,Credit,include,1,777
+All,Credit,include,2,366
+All,Credit,include,3,139
+All,Credit,include,4,25
+All,Credit,include,5,5
+All,Credit,include,6,1
+All,Credit,exclude,1,642
+All,Credit,exclude,2,286
+All,Credit,exclude,3,108
+All,Credit,exclude,4,24
+All,Credit,exclude,5,3
+All,Credit,exclude,6,1
+All,Debit,include,1,687
+All,Debit,include,2,509
+All,Debit,include,3,307
+All,Debit,include,4,135
+All,Debit,include,5,48
+All,Debit,include,6,10
+All,Debit,include,7,3
+All,Debit,include,8,3
+All,Debit,exclude,1,545
+All,Debit,exclude,2,418
+All,Debit,exclude,3,238
+All,Debit,exclude,4,125
+All,Debit,exclude,5,35
+All,Debit,exclude,6,11
+All,Debit,exclude,7,3
+All,Debit,exclude,8,1
+All,Debit (Prepaid),include,1,448
+All,Debit (Prepaid),include,2,53
+All,Debit (Prepaid),include,3,8
+All,Debit (Prepaid),exclude,1,343
+All,Debit (Prepaid),exclude,2,45
+All,Debit (Prepaid),exclude,3,5
+Amex,All,include,1,318
+Amex,All,include,2,37
+Amex,All,include,3,2
+Amex,All,include,4,1
+Amex,All,exclude,1,257
+Amex,All,exclude,2,28
+Amex,All,exclude,3,2
+Amex,All,exclude,4,1
+Amex,Credit,include,1,318
+Amex,Credit,include,2,37
+Amex,Credit,include,3,2
+Amex,Credit,include,4,1
+Amex,Credit,exclude,1,257
+Amex,Credit,exclude,2,28
+Amex,Credit,exclude,3,2
+Amex,Credit,exclude,4,1
+Discover,All,include,1,189
+Discover,All,include,2,10
+Discover,All,exclude,1,153
+Discover,All,exclude,2,9
+Discover,Credit,include,1,189
+Discover,Credit,include,2,10
+Discover,Credit,exclude,1,153
+Discover,Credit,exclude,2,9
+Mastercard,All,include,1,731
+Mastercard,All,include,2,528
+Mastercard,All,include,3,265
+Mastercard,All,include,4,98
+Mastercard,All,include,5,27
+Mastercard,All,include,6,13
+Mastercard,All,include,7,2
+Mastercard,All,include,8,1
+Mastercard,All,exclude,1,586
+Mastercard,All,exclude,2,428
+Mastercard,All,exclude,3,213
+Mastercard,All,exclude,4,84
+Mastercard,All,exclude,5,19
+Mastercard,All,exclude,6,13
+Mastercard,All,exclude,8,1
+Mastercard,Credit,include,1,477
+Mastercard,Credit,include,2,69
+Mastercard,Credit,include,3,4
+Mastercard,Credit,include,4,2
+Mastercard,Credit,exclude,1,389
+Mastercard,Credit,exclude,2,50
+Mastercard,Credit,exclude,3,3
+Mastercard,Credit,exclude,4,2
+Mastercard,Debit,include,1,804
+Mastercard,Debit,include,2,387
+Mastercard,Debit,include,3,141
+Mastercard,Debit,include,4,30
+Mastercard,Debit,include,5,8
+Mastercard,Debit,include,6,5
+Mastercard,Debit,exclude,1,651
+Mastercard,Debit,exclude,2,318
+Mastercard,Debit,exclude,3,115
+Mastercard,Debit,exclude,4,24
+Mastercard,Debit,exclude,5,9
+Mastercard,Debit,exclude,6,3
+Mastercard,Debit (Prepaid),include,1,328
+Mastercard,Debit (Prepaid),include,2,26
+Mastercard,Debit (Prepaid),include,3,1
+Mastercard,Debit (Prepaid),exclude,1,256
+Mastercard,Debit (Prepaid),exclude,2,21
+Mastercard,Debit (Prepaid),exclude,3,1
+Visa,All,include,1,734
+Visa,All,include,2,421
+Visa,All,include,3,162
+Visa,All,include,4,46
+Visa,All,include,5,16
+Visa,All,exclude,1,597
+Visa,All,exclude,2,328
+Visa,All,exclude,3,137
+Visa,All,exclude,4,38
+Visa,All,exclude,5,12
+Visa,Credit,include,1,553
+Visa,Credit,include,2,106
+Visa,Credit,include,3,14
+Visa,Credit,include,4,1
+Visa,Credit,exclude,1,440
+Visa,Credit,exclude,2,89
+Visa,Credit,exclude,3,11
+Visa,Credit,exclude,4,1
+Visa,Debit,include,1,664
+Visa,Debit,include,2,211
+Visa,Debit,include,3,64
+Visa,Debit,include,4,8
+Visa,Debit,include,5,2
+Visa,Debit,exclude,1,527
+Visa,Debit,exclude,2,176
+Visa,Debit,exclude,3,54
+Visa,Debit,exclude,4,7
+Visa,Debit,exclude,5,1
+Visa,Debit (Prepaid),include,1,183
+Visa,Debit (Prepaid),include,2,6
+Visa,Debit (Prepaid),exclude,1,137
+Visa,Debit (Prepaid),exclude,2,5

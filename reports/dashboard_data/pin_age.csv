@@ -1,0 +1,575 @@
+f_brand,f_type,f_batch,pin_age_years,cards
+All,All,include,0,1208
+All,All,include,1,115
+All,All,include,2,156
+All,All,include,3,162
+All,All,include,4,234
+All,All,include,5,341
+All,All,include,6,397
+All,All,include,7,465
+All,All,include,8,477
+All,All,include,9,809
+All,All,include,10,712
+All,All,include,11,456
+All,All,include,12,303
+All,All,include,13,177
+All,All,include,14,73
+All,All,include,15,36
+All,All,include,16,12
+All,All,include,17,11
+All,All,include,18,2
+All,All,exclude,0,30
+All,All,exclude,1,115
+All,All,exclude,2,156
+All,All,exclude,3,162
+All,All,exclude,4,234
+All,All,exclude,5,341
+All,All,exclude,6,397
+All,All,exclude,7,465
+All,All,exclude,8,477
+All,All,exclude,9,809
+All,All,exclude,10,712
+All,All,exclude,11,456
+All,All,exclude,12,303
+All,All,exclude,13,177
+All,All,exclude,14,73
+All,All,exclude,15,36
+All,All,exclude,16,12
+All,All,exclude,17,11
+All,All,exclude,18,2
+All,Credit,include,0,410
+All,Credit,include,1,38
+All,Credit,include,2,42
+All,Credit,include,3,55
+All,Credit,include,4,80
+All,Credit,include,5,105
+All,Credit,include,6,126
+All,Credit,include,7,163
+All,Credit,include,8,163
+All,Credit,include,9,284
+All,Credit,include,10,235
+All,Credit,include,11,145
+All,Credit,include,12,103
+All,Credit,include,13,61
+All,Credit,include,14,23
+All,Credit,include,15,11
+All,Credit,include,16,6
+All,Credit,include,17,6
+All,Credit,include,18,1
+All,Credit,exclude,0,8
+All,Credit,exclude,1,38
+All,Credit,exclude,2,42
+All,Credit,exclude,3,55
+All,Credit,exclude,4,80
+All,Credit,exclude,5,105
+All,Credit,exclude,6,126
+All,Credit,exclude,7,163
+All,Credit,exclude,8,163
+All,Credit,exclude,9,284
+All,Credit,exclude,10,235
+All,Credit,exclude,11,145
+All,Credit,exclude,12,103
+All,Credit,exclude,13,61
+All,Credit,exclude,14,23
+All,Credit,exclude,15,11
+All,Credit,exclude,16,6
+All,Credit,exclude,17,6
+All,Credit,exclude,18,1
+All,Debit,include,0,666
+All,Debit,include,1,62
+All,Debit,include,2,91
+All,Debit,include,3,90
+All,Debit,include,4,137
+All,Debit,include,5,208
+All,Debit,include,6,245
+All,Debit,include,7,264
+All,Debit,include,8,270
+All,Debit,include,9,449
+All,Debit,include,10,421
+All,Debit,include,11,257
+All,Debit,include,12,175
+All,Debit,include,13,100
+All,Debit,include,14,42
+All,Debit,include,15,25
+All,Debit,include,16,4
+All,Debit,include,17,4
+All,Debit,include,18,1
+All,Debit,exclude,0,20
+All,Debit,exclude,1,62
+All,Debit,exclude,2,91
+All,Debit,exclude,3,90
+All,Debit,exclude,4,137
+All,Debit,exclude,5,208
+All,Debit,exclude,6,245
+All,Debit,exclude,7,264
+All,Debit,exclude,8,270
+All,Debit,exclude,9,449
+All,Debit,exclude,10,421
+All,Debit,exclude,11,257
+All,Debit,exclude,12,175
+All,Debit,exclude,13,100
+All,Debit,exclude,14,42
+All,Debit,exclude,15,25
+All,Debit,exclude,16,4
+All,Debit,exclude,17,4
+All,Debit,exclude,18,1
+All,Debit (Prepaid),include,0,132
+All,Debit (Prepaid),include,1,15
+All,Debit (Prepaid),include,2,23
+All,Debit (Prepaid),include,3,17
+All,Debit (Prepaid),include,4,17
+All,Debit (Prepaid),include,5,28
+All,Debit (Prepaid),include,6,26
+All,Debit (Prepaid),include,7,38
+All,Debit (Prepaid),include,8,44
+All,Debit (Prepaid),include,9,76
+All,Debit (Prepaid),include,10,56
+All,Debit (Prepaid),include,11,54
+All,Debit (Prepaid),include,12,25
+All,Debit (Prepaid),include,13,16
+All,Debit (Prepaid),include,14,8
+All,Debit (Prepaid),include,16,2
+All,Debit (Prepaid),include,17,1
+All,Debit (Prepaid),exclude,0,2
+All,Debit (Prepaid),exclude,1,15
+All,Debit (Prepaid),exclude,2,23
+All,Debit (Prepaid),exclude,3,17
+All,Debit (Prepaid),exclude,4,17
+All,Debit (Prepaid),exclude,5,28
+All,Debit (Prepaid),exclude,6,26
+All,Debit (Prepaid),exclude,7,38
+All,Debit (Prepaid),exclude,8,44
+All,Debit (Prepaid),exclude,9,76
+All,Debit (Prepaid),exclude,10,56
+All,Debit (Prepaid),exclude,11,54
+All,Debit (Prepaid),exclude,12,25
+All,Debit (Prepaid),exclude,13,16
+All,Debit (Prepaid),exclude,14,8
+All,Debit (Prepaid),exclude,16,2
+All,Debit (Prepaid),exclude,17,1
+Amex,All,include,0,80
+Amex,All,include,1,9
+Amex,All,include,2,10
+Amex,All,include,3,15
+Amex,All,include,4,19
+Amex,All,include,5,23
+Amex,All,include,6,23
+Amex,All,include,7,35
+Amex,All,include,8,31
+Amex,All,include,9,50
+Amex,All,include,10,32
+Amex,All,include,11,34
+Amex,All,include,12,20
+Amex,All,include,13,11
+Amex,All,include,14,4
+Amex,All,include,15,2
+Amex,All,include,16,1
+Amex,All,include,17,2
+Amex,All,include,18,1
+Amex,All,exclude,0,1
+Amex,All,exclude,1,9
+Amex,All,exclude,2,10
+Amex,All,exclude,3,15
+Amex,All,exclude,4,19
+Amex,All,exclude,5,23
+Amex,All,exclude,6,23
+Amex,All,exclude,7,35
+Amex,All,exclude,8,31
+Amex,All,exclude,9,50
+Amex,All,exclude,10,32
+Amex,All,exclude,11,34
+Amex,All,exclude,12,20
+Amex,All,exclude,13,11
+Amex,All,exclude,14,4
+Amex,All,exclude,15,2
+Amex,All,exclude,16,1
+Amex,All,exclude,17,2
+Amex,All,exclude,18,1
+Amex,Credit,include,0,80
+Amex,Credit,include,1,9
+Amex,Credit,include,2,10
+Amex,Credit,include,3,15
+Amex,Credit,include,4,19
+Amex,Credit,include,5,23
+Amex,Credit,include,6,23
+Amex,Credit,include,7,35
+Amex,Credit,include,8,31
+Amex,Credit,include,9,50
+Amex,Credit,include,10,32
+Amex,Credit,include,11,34
+Amex,Credit,include,12,20
+Amex,Credit,include,13,11
+Amex,Credit,include,14,4
+Amex,Credit,include,15,2
+Amex,Credit,include,16,1
+Amex,Credit,include,17,2
+Amex,Credit,include,18,1
+Amex,Credit,exclude,0,1
+Amex,Credit,exclude,1,9
+Amex,Credit,exclude,2,10
+Amex,Credit,exclude,3,15
+Amex,Credit,exclude,4,19
+Amex,Credit,exclude,5,23
+Amex,Credit,exclude,6,23
+Amex,Credit,exclude,7,35
+Amex,Credit,exclude,8,31
+Amex,Credit,exclude,9,50
+Amex,Credit,exclude,10,32
+Amex,Credit,exclude,11,34
+Amex,Credit,exclude,12,20
+Amex,Credit,exclude,13,11
+Amex,Credit,exclude,14,4
+Amex,Credit,exclude,15,2
+Amex,Credit,exclude,16,1
+Amex,Credit,exclude,17,2
+Amex,Credit,exclude,18,1
+Discover,All,include,0,38
+Discover,All,include,1,3
+Discover,All,include,2,2
+Discover,All,include,3,4
+Discover,All,include,4,11
+Discover,All,include,5,9
+Discover,All,include,6,18
+Discover,All,include,7,17
+Discover,All,include,8,11
+Discover,All,include,9,41
+Discover,All,include,10,16
+Discover,All,include,11,12
+Discover,All,include,12,11
+Discover,All,include,13,6
+Discover,All,include,14,4
+Discover,All,include,15,4
+Discover,All,include,16,2
+Discover,All,exclude,1,3
+Discover,All,exclude,2,2
+Discover,All,exclude,3,4
+Discover,All,exclude,4,11
+Discover,All,exclude,5,9
+Discover,All,exclude,6,18
+Discover,All,exclude,7,17
+Discover,All,exclude,8,11
+Discover,All,exclude,9,41
+Discover,All,exclude,10,16
+Discover,All,exclude,11,12
+Discover,All,exclude,12,11
+Discover,All,exclude,13,6
+Discover,All,exclude,14,4
+Discover,All,exclude,15,4
+Discover,All,exclude,16,2
+Discover,Credit,include,0,38
+Discover,Credit,include,1,3
+Discover,Credit,include,2,2
+Discover,Credit,include,3,4
+Discover,Credit,include,4,11
+Discover,Credit,include,5,9
+Discover,Credit,include,6,18
+Discover,Credit,include,7,17
+Discover,Credit,include,8,11
+Discover,Credit,include,9,41
+Discover,Credit,include,10,16
+Discover,Credit,include,11,12
+Discover,Credit,include,12,11
+Discover,Credit,include,13,6
+Discover,Credit,include,14,4
+Discover,Credit,include,15,4
+Discover,Credit,include,16,2
+Discover,Credit,exclude,1,3
+Discover,Credit,exclude,2,2
+Discover,Credit,exclude,3,4
+Discover,Credit,exclude,4,11
+Discover,Credit,exclude,5,9
+Discover,Credit,exclude,6,18
+Discover,Credit,exclude,7,17
+Discover,Credit,exclude,8,11
+Discover,Credit,exclude,9,41
+Discover,Credit,exclude,10,16
+Discover,Credit,exclude,11,12
+Discover,Credit,exclude,12,11
+Discover,Credit,exclude,13,6
+Discover,Credit,exclude,14,4
+Discover,Credit,exclude,15,4
+Discover,Credit,exclude,16,2
+Mastercard,All,include,0,631
+Mastercard,All,include,1,61
+Mastercard,All,include,2,73
+Mastercard,All,include,3,87
+Mastercard,All,include,4,132
+Mastercard,All,include,5,183
+Mastercard,All,include,6,205
+Mastercard,All,include,7,237
+Mastercard,All,include,8,265
+Mastercard,All,include,9,401
+Mastercard,All,include,10,388
+Mastercard,All,include,11,232
+Mastercard,All,include,12,152
+Mastercard,All,include,13,92
+Mastercard,All,include,14,42
+Mastercard,All,include,15,19
+Mastercard,All,include,16,6
+Mastercard,All,include,17,3
+Mastercard,All,exclude,0,20
+Mastercard,All,exclude,1,61
+Mastercard,All,exclude,2,73
+Mastercard,All,exclude,3,87
+Mastercard,All,exclude,4,132
+Mastercard,All,exclude,5,183
+Mastercard,All,exclude,6,205
+Mastercard,All,exclude,7,237
+Mastercard,All,exclude,8,265
+Mastercard,All,exclude,9,401
+Mastercard,All,exclude,10,388
+Mastercard,All,exclude,11,232
+Mastercard,All,exclude,12,152
+Mastercard,All,exclude,13,92
+Mastercard,All,exclude,14,42
+Mastercard,All,exclude,15,19
+Mastercard,All,exclude,16,6
+Mastercard,All,exclude,17,3
+Mastercard,Credit,include,0,132
+Mastercard,Credit,include,1,11
+Mastercard,Credit,include,2,8
+Mastercard,Credit,include,3,15
+Mastercard,Credit,include,4,25
+Mastercard,Credit,include,5,36
+Mastercard,Credit,include,6,39
+Mastercard,Credit,include,7,42
+Mastercard,Credit,include,8,59
+Mastercard,Credit,include,9,76
+Mastercard,Credit,include,10,89
+Mastercard,Credit,include,11,42
+Mastercard,Credit,include,12,35
+Mastercard,Credit,include,13,19
+Mastercard,Credit,include,14,3
+Mastercard,Credit,include,15,1
+Mastercard,Credit,include,16,2
+Mastercard,Credit,include,17,1
+Mastercard,Credit,exclude,0,3
+Mastercard,Credit,exclude,1,11
+Mastercard,Credit,exclude,2,8
+Mastercard,Credit,exclude,3,15
+Mastercard,Credit,exclude,4,25
+Mastercard,Credit,exclude,5,36
+Mastercard,Credit,exclude,6,39
+Mastercard,Credit,exclude,7,42
+Mastercard,Credit,exclude,8,59
+Mastercard,Credit,exclude,9,76
+Mastercard,Credit,exclude,10,89
+Mastercard,Credit,exclude,11,42
+Mastercard,Credit,exclude,12,35
+Mastercard,Credit,exclude,13,19
+Mastercard,Credit,exclude,14,3
+Mastercard,Credit,exclude,15,1
+Mastercard,Credit,exclude,16,2
+Mastercard,Credit,exclude,17,1
+Mastercard,Debit,include,0,416
+Mastercard,Debit,include,1,40
+Mastercard,Debit,include,2,52
+Mastercard,Debit,include,3,60
+Mastercard,Debit,include,4,94
+Mastercard,Debit,include,5,129
+Mastercard,Debit,include,6,152
+Mastercard,Debit,include,7,168
+Mastercard,Debit,include,8,172
+Mastercard,Debit,include,9,272
+Mastercard,Debit,include,10,258
+Mastercard,Debit,include,11,156
+Mastercard,Debit,include,12,102
+Mastercard,Debit,include,13,66
+Mastercard,Debit,include,14,32
+Mastercard,Debit,include,15,18
+Mastercard,Debit,include,16,2
+Mastercard,Debit,include,17,2
+Mastercard,Debit,exclude,0,16
+Mastercard,Debit,exclude,1,40
+Mastercard,Debit,exclude,2,52
+Mastercard,Debit,exclude,3,60
+Mastercard,Debit,exclude,4,94
+Mastercard,Debit,exclude,5,129
+Mastercard,Debit,exclude,6,152
+Mastercard,Debit,exclude,7,168
+Mastercard,Debit,exclude,8,172
+Mastercard,Debit,exclude,9,272
+Mastercard,Debit,exclude,10,258
+Mastercard,Debit,exclude,11,156
+Mastercard,Debit,exclude,12,102
+Mastercard,Debit,exclude,13,66
+Mastercard,Debit,exclude,14,32
+Mastercard,Debit,exclude,15,18
+Mastercard,Debit,exclude,16,2
+Mastercard,Debit,exclude,17,2
+Mastercard,Debit (Prepaid),include,0,83
+Mastercard,Debit (Prepaid),include,1,10
+Mastercard,Debit (Prepaid),include,2,13
+Mastercard,Debit (Prepaid),include,3,12
+Mastercard,Debit (Prepaid),include,4,13
+Mastercard,Debit (Prepaid),include,5,18
+Mastercard,Debit (Prepaid),include,6,14
+Mastercard,Debit (Prepaid),include,7,27
+Mastercard,Debit (Prepaid),include,8,34
+Mastercard,Debit (Prepaid),include,9,53
+Mastercard,Debit (Prepaid),include,10,41
+Mastercard,Debit (Prepaid),include,11,34
+Mastercard,Debit (Prepaid),include,12,15
+Mastercard,Debit (Prepaid),include,13,7
+Mastercard,Debit (Prepaid),include,14,7
+Mastercard,Debit (Prepaid),include,16,2
+Mastercard,Debit (Prepaid),exclude,0,1
+Mastercard,Debit (Prepaid),exclude,1,10
+Mastercard,Debit (Prepaid),exclude,2,13
+Mastercard,Debit (Prepaid),exclude,3,12
+Mastercard,Debit (Prepaid),exclude,4,13
+Mastercard,Debit (Prepaid),exclude,5,18
+Mastercard,Debit (Prepaid),exclude,6,14
+Mastercard,Debit (Prepaid),exclude,7,27
+Mastercard,Debit (Prepaid),exclude,8,34
+Mastercard,Debit (Prepaid),exclude,9,53
+Mastercard,Debit (Prepaid),exclude,10,41
+Mastercard,Debit (Prepaid),exclude,11,34
+Mastercard,Debit (Prepaid),exclude,12,15
+Mastercard,Debit (Prepaid),exclude,13,7
+Mastercard,Debit (Prepaid),exclude,14,7
+Mastercard,Debit (Prepaid),exclude,16,2
+Visa,All,include,0,459
+Visa,All,include,1,42
+Visa,All,include,2,71
+Visa,All,include,3,56
+Visa,All,include,4,72
+Visa,All,include,5,126
+Visa,All,include,6,151
+Visa,All,include,7,176
+Visa,All,include,8,170
+Visa,All,include,9,317
+Visa,All,include,10,276
+Visa,All,include,11,178
+Visa,All,include,12,120
+Visa,All,include,13,68
+Visa,All,include,14,23
+Visa,All,include,15,11
+Visa,All,include,16,3
+Visa,All,include,17,6
+Visa,All,include,18,1
+Visa,All,exclude,0,9
+Visa,All,exclude,1,42
+Visa,All,exclude,2,71
+Visa,All,exclude,3,56
+Visa,All,exclude,4,72
+Visa,All,exclude,5,126
+Visa,All,exclude,6,151
+Visa,All,exclude,7,176
+Visa,All,exclude,8,170
+Visa,All,exclude,9,317
+Visa,All,exclude,10,276
+Visa,All,exclude,11,178
+Visa,All,exclude,12,120
+Visa,All,exclude,13,68
+Visa,All,exclude,14,23
+Visa,All,exclude,15,11
+Visa,All,exclude,16,3
+Visa,All,exclude,17,6
+Visa,All,exclude,18,1
+Visa,Credit,include,0,160
+Visa,Credit,include,1,15
+Visa,Credit,include,2,22
+Visa,Credit,include,3,21
+Visa,Credit,include,4,25
+Visa,Credit,include,5,37
+Visa,Credit,include,6,46
+Visa,Credit,include,7,69
+Visa,Credit,include,8,62
+Visa,Credit,include,9,117
+Visa,Credit,include,10,98
+Visa,Credit,include,11,57
+Visa,Credit,include,12,37
+Visa,Credit,include,13,25
+Visa,Credit,include,14,12
+Visa,Credit,include,15,4
+Visa,Credit,include,16,1
+Visa,Credit,include,17,3
+Visa,Credit,exclude,0,4
+Visa,Credit,exclude,1,15
+Visa,Credit,exclude,2,22
+Visa,Credit,exclude,3,21
+Visa,Credit,exclude,4,25
+Visa,Credit,exclude,5,37
+Visa,Credit,exclude,6,46
+Visa,Credit,exclude,7,69
+Visa,Credit,exclude,8,62
+Visa,Credit,exclude,9,117
+Visa,Credit,exclude,10,98
+Visa,Credit,exclude,11,57
+Visa,Credit,exclude,12,37
+Visa,Credit,exclude,13,25
+Visa,Credit,exclude,14,12
+Visa,Credit,exclude,15,4
+Visa,Credit,exclude,16,1
+Visa,Credit,exclude,17,3
+Visa,Debit,include,0,250
+Visa,Debit,include,1,22
+Visa,Debit,include,2,39
+Visa,Debit,include,3,30
+Visa,Debit,include,4,43
+Visa,Debit,include,5,79
+Visa,Debit,include,6,93
+Visa,Debit,include,7,96
+Visa,Debit,include,8,98
+Visa,Debit,include,9,177
+Visa,Debit,include,10,163
+Visa,Debit,include,11,101
+Visa,Debit,include,12,73
+Visa,Debit,include,13,34
+Visa,Debit,include,14,10
+Visa,Debit,include,15,7
+Visa,Debit,include,16,2
+Visa,Debit,include,17,2
+Visa,Debit,include,18,1
+Visa,Debit,exclude,0,4
+Visa,Debit,exclude,1,22
+Visa,Debit,exclude,2,39
+Visa,Debit,exclude,3,30
+Visa,Debit,exclude,4,43
+Visa,Debit,exclude,5,79
+Visa,Debit,exclude,6,93
+Visa,Debit,exclude,7,96
+Visa,Debit,exclude,8,98
+Visa,Debit,exclude,9,177
+Visa,Debit,exclude,10,163
+Visa,Debit,exclude,11,101
+Visa,Debit,exclude,12,73
+Visa,Debit,exclude,13,34
+Visa,Debit,exclude,14,10
+Visa,Debit,exclude,15,7
+Visa,Debit,exclude,16,2
+Visa,Debit,exclude,17,2
+Visa,Debit,exclude,18,1
+Visa,Debit (Prepaid),include,0,49
+Visa,Debit (Prepaid),include,1,5
+Visa,Debit (Prepaid),include,2,10
+Visa,Debit (Prepaid),include,3,5
+Visa,Debit (Prepaid),include,4,4
+Visa,Debit (Prepaid),include,5,10
+Visa,Debit (Prepaid),include,6,12
+Visa,Debit (Prepaid),include,7,11
+Visa,Debit (Prepaid),include,8,10
+Visa,Debit (Prepaid),include,9,23
+Visa,Debit (Prepaid),include,10,15
+Visa,Debit (Prepaid),include,11,20
+Visa,Debit (Prepaid),include,12,10
+Visa,Debit (Prepaid),include,13,9
+Visa,Debit (Prepaid),include,14,1
+Visa,Debit (Prepaid),include,17,1
+Visa,Debit (Prepaid),exclude,0,1
+Visa,Debit (Prepaid),exclude,1,5
+Visa,Debit (Prepaid),exclude,2,10
+Visa,Debit (Prepaid),exclude,3,5
+Visa,Debit (Prepaid),exclude,4,4
+Visa,Debit (Prepaid),exclude,5,10
+Visa,Debit (Prepaid),exclude,6,12
+Visa,Debit (Prepaid),exclude,7,11
+Visa,Debit (Prepaid),exclude,8,10
+Visa,Debit (Prepaid),exclude,9,23
+Visa,Debit (Prepaid),exclude,10,15
+Visa,Debit (Prepaid),exclude,11,20
+Visa,Debit (Prepaid),exclude,12,10
+Visa,Debit (Prepaid),exclude,13,9
+Visa,Debit (Prepaid),exclude,14,1
+Visa,Debit (Prepaid),exclude,17,1

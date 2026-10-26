@@ -1,0 +1,133 @@
+f_brand,f_type,f_batch,expiry_status,card_type,cards,credit_limit
+All,All,include,Active,Credit,1186,12900900.0
+All,All,include,Active,Debit,2042,37976369.0
+All,All,include,Active,Debit (Prepaid),317,20276.0
+All,All,include,Expired,Credit,426,4925800.0
+All,All,include,Expired,Debit,696,12638895.0
+All,All,include,Expired,Debit (Prepaid),122,7970.0
+All,All,include,Expiring within 12 mo,Credit,445,5159000.0
+All,All,include,Expiring within 12 mo,Debit,773,14541483.0
+All,All,include,Expiring within 12 mo,Debit (Prepaid),139,9005.0
+All,All,exclude,Active,Credit,940,10246400.0
+All,All,exclude,Active,Debit,1667,31115900.0
+All,All,exclude,Active,Debit (Prepaid),244,15516.0
+All,All,exclude,Expired,Credit,403,4661100.0
+All,All,exclude,Expired,Debit,656,11815231.0
+All,All,exclude,Expired,Debit (Prepaid),113,7428.0
+All,All,exclude,Expiring within 12 mo,Credit,312,3556600.0
+All,All,exclude,Expiring within 12 mo,Debit,542,10300149.0
+All,All,exclude,Expiring within 12 mo,Debit (Prepaid),91,5964.0
+All,Credit,include,Active,Credit,1186,12900900.0
+All,Credit,include,Expired,Credit,426,4925800.0
+All,Credit,include,Expiring within 12 mo,Credit,445,5159000.0
+All,Credit,exclude,Active,Credit,940,10246400.0
+All,Credit,exclude,Expired,Credit,403,4661100.0
+All,Credit,exclude,Expiring within 12 mo,Credit,312,3556600.0
+All,Debit,include,Active,Debit,2042,37976369.0
+All,Debit,include,Expired,Debit,696,12638895.0
+All,Debit,include,Expiring within 12 mo,Debit,773,14541483.0
+All,Debit,exclude,Active,Debit,1667,31115900.0
+All,Debit,exclude,Expired,Debit,656,11815231.0
+All,Debit,exclude,Expiring within 12 mo,Debit,542,10300149.0
+All,Debit (Prepaid),include,Active,Debit (Prepaid),317,20276.0
+All,Debit (Prepaid),include,Expired,Debit (Prepaid),122,7970.0
+All,Debit (Prepaid),include,Expiring within 12 mo,Debit (Prepaid),139,9005.0
+All,Debit (Prepaid),exclude,Active,Debit (Prepaid),244,15516.0
+All,Debit (Prepaid),exclude,Expired,Debit (Prepaid),113,7428.0
+All,Debit (Prepaid),exclude,Expiring within 12 mo,Debit (Prepaid),91,5964.0
+Amex,All,include,Active,Credit,237,2619900.0
+Amex,All,include,Expired,Credit,78,816400.0
+Amex,All,include,Expiring within 12 mo,Credit,87,1161100.0
+Amex,All,exclude,Active,Credit,188,2076600.0
+Amex,All,exclude,Expired,Credit,74,775200.0
+Amex,All,exclude,Expiring within 12 mo,Credit,61,723900.0
+Amex,Credit,include,Active,Credit,237,2619900.0
+Amex,Credit,include,Expired,Credit,78,816400.0
+Amex,Credit,include,Expiring within 12 mo,Credit,87,1161100.0
+Amex,Credit,exclude,Active,Credit,188,2076600.0
+Amex,Credit,exclude,Expired,Credit,74,775200.0
+Amex,Credit,exclude,Expiring within 12 mo,Credit,61,723900.0
+Discover,All,include,Active,Credit,107,1121300.0
+Discover,All,include,Expired,Credit,52,578500.0
+Discover,All,include,Expiring within 12 mo,Credit,50,560800.0
+Discover,All,exclude,Active,Credit,88,933200.0
+Discover,All,exclude,Expired,Credit,47,526400.0
+Discover,All,exclude,Expiring within 12 mo,Credit,36,370000.0
+Discover,Credit,include,Active,Credit,107,1121300.0
+Discover,Credit,include,Expired,Credit,52,578500.0
+Discover,Credit,include,Expiring within 12 mo,Credit,50,560800.0
+Discover,Credit,exclude,Active,Credit,88,933200.0
+Discover,Credit,exclude,Expired,Credit,47,526400.0
+Discover,Credit,exclude,Expiring within 12 mo,Credit,36,370000.0
+Mastercard,All,include,Active,Credit,373,4102400.0
+Mastercard,All,include,Active,Debit,1288,23708141.0
+Mastercard,All,include,Active,Debit (Prepaid),198,12949.0
+Mastercard,All,include,Expired,Credit,133,1539900.0
+Mastercard,All,include,Expired,Debit,423,7466836.0
+Mastercard,All,include,Expired,Debit (Prepaid),90,5705.0
+Mastercard,All,include,Expiring within 12 mo,Credit,129,1324700.0
+Mastercard,All,include,Expiring within 12 mo,Debit,480,8875870.0
+Mastercard,All,include,Expiring within 12 mo,Debit (Prepaid),95,6156.0
+Mastercard,All,exclude,Active,Credit,298,3238400.0
+Mastercard,All,exclude,Active,Debit,1059,19589411.0
+Mastercard,All,exclude,Active,Debit (Prepaid),149,9738.0
+Mastercard,All,exclude,Expired,Credit,126,1432600.0
+Mastercard,All,exclude,Expired,Debit,396,6902916.0
+Mastercard,All,exclude,Expired,Debit (Prepaid),86,5511.0
+Mastercard,All,exclude,Expiring within 12 mo,Credit,82,814000.0
+Mastercard,All,exclude,Expiring within 12 mo,Debit,336,6344853.0
+Mastercard,All,exclude,Expiring within 12 mo,Debit (Prepaid),66,4366.0
+Mastercard,Credit,include,Active,Credit,373,4102400.0
+Mastercard,Credit,include,Expired,Credit,133,1539900.0
+Mastercard,Credit,include,Expiring within 12 mo,Credit,129,1324700.0
+Mastercard,Credit,exclude,Active,Credit,298,3238400.0
+Mastercard,Credit,exclude,Expired,Credit,126,1432600.0
+Mastercard,Credit,exclude,Expiring within 12 mo,Credit,82,814000.0
+Mastercard,Debit,include,Active,Debit,1288,23708141.0
+Mastercard,Debit,include,Expired,Debit,423,7466836.0
+Mastercard,Debit,include,Expiring within 12 mo,Debit,480,8875870.0
+Mastercard,Debit,exclude,Active,Debit,1059,19589411.0
+Mastercard,Debit,exclude,Expired,Debit,396,6902916.0
+Mastercard,Debit,exclude,Expiring within 12 mo,Debit,336,6344853.0
+Mastercard,Debit (Prepaid),include,Active,Debit (Prepaid),198,12949.0
+Mastercard,Debit (Prepaid),include,Expired,Debit (Prepaid),90,5705.0
+Mastercard,Debit (Prepaid),include,Expiring within 12 mo,Debit (Prepaid),95,6156.0
+Mastercard,Debit (Prepaid),exclude,Active,Debit (Prepaid),149,9738.0
+Mastercard,Debit (Prepaid),exclude,Expired,Debit (Prepaid),86,5511.0
+Mastercard,Debit (Prepaid),exclude,Expiring within 12 mo,Debit (Prepaid),66,4366.0
+Visa,All,include,Active,Credit,469,5057300.0
+Visa,All,include,Active,Debit,754,14268228.0
+Visa,All,include,Active,Debit (Prepaid),119,7327.0
+Visa,All,include,Expired,Credit,163,1991000.0
+Visa,All,include,Expired,Debit,273,5172059.0
+Visa,All,include,Expired,Debit (Prepaid),32,2265.0
+Visa,All,include,Expiring within 12 mo,Credit,179,2112400.0
+Visa,All,include,Expiring within 12 mo,Debit,293,5665613.0
+Visa,All,include,Expiring within 12 mo,Debit (Prepaid),44,2849.0
+Visa,All,exclude,Active,Credit,366,3998200.0
+Visa,All,exclude,Active,Debit,608,11526489.0
+Visa,All,exclude,Active,Debit (Prepaid),95,5778.0
+Visa,All,exclude,Expired,Credit,156,1926900.0
+Visa,All,exclude,Expired,Debit,260,4912315.0
+Visa,All,exclude,Expired,Debit (Prepaid),27,1917.0
+Visa,All,exclude,Expiring within 12 mo,Credit,133,1648700.0
+Visa,All,exclude,Expiring within 12 mo,Debit,206,3955296.0
+Visa,All,exclude,Expiring within 12 mo,Debit (Prepaid),25,1598.0
+Visa,Credit,include,Active,Credit,469,5057300.0
+Visa,Credit,include,Expired,Credit,163,1991000.0
+Visa,Credit,include,Expiring within 12 mo,Credit,179,2112400.0
+Visa,Credit,exclude,Active,Credit,366,3998200.0
+Visa,Credit,exclude,Expired,Credit,156,1926900.0
+Visa,Credit,exclude,Expiring within 12 mo,Credit,133,1648700.0
+Visa,Debit,include,Active,Debit,754,14268228.0
+Visa,Debit,include,Expired,Debit,273,5172059.0
+Visa,Debit,include,Expiring within 12 mo,Debit,293,5665613.0
+Visa,Debit,exclude,Active,Debit,608,11526489.0
+Visa,Debit,exclude,Expired,Debit,260,4912315.0
+Visa,Debit,exclude,Expiring within 12 mo,Debit,206,3955296.0
+Visa,Debit (Prepaid),include,Active,Debit (Prepaid),119,7327.0
+Visa,Debit (Prepaid),include,Expired,Debit (Prepaid),32,2265.0
+Visa,Debit (Prepaid),include,Expiring within 12 mo,Debit (Prepaid),44,2849.0
+Visa,Debit (Prepaid),exclude,Active,Debit (Prepaid),95,5778.0
+Visa,Debit (Prepaid),exclude,Expired,Debit (Prepaid),27,1917.0
+Visa,Debit (Prepaid),exclude,Expiring within 12 mo,Debit (Prepaid),25,1598.0

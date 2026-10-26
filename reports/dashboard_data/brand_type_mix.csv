@@ -1,0 +1,65 @@
+f_brand,f_type,f_batch,card_brand,card_type,cards,total_limit,avg_limit
+All,All,include,Amex,Credit,402,4597400.0,11436.0
+All,All,include,Discover,Credit,209,2260600.0,10816.0
+All,All,include,Mastercard,Credit,635,6967000.0,10972.0
+All,All,include,Mastercard,Debit,2191,40050847.0,18280.0
+All,All,include,Mastercard,Debit (Prepaid),383,24810.0,65.0
+All,All,include,Visa,Credit,811,9160700.0,11296.0
+All,All,include,Visa,Debit,1320,25105900.0,19020.0
+All,All,include,Visa,Debit (Prepaid),195,12441.0,64.0
+All,All,exclude,Amex,Credit,323,3575700.0,11070.0
+All,All,exclude,Discover,Credit,171,1829600.0,10699.0
+All,All,exclude,Mastercard,Credit,506,5485000.0,10840.0
+All,All,exclude,Mastercard,Debit,1791,32837180.0,18335.0
+All,All,exclude,Mastercard,Debit (Prepaid),301,19615.0,65.0
+All,All,exclude,Visa,Credit,655,7573800.0,11563.0
+All,All,exclude,Visa,Debit,1074,20394100.0,18989.0
+All,All,exclude,Visa,Debit (Prepaid),147,9293.0,63.0
+All,Credit,include,Amex,Credit,402,4597400.0,11436.0
+All,Credit,include,Discover,Credit,209,2260600.0,10816.0
+All,Credit,include,Mastercard,Credit,635,6967000.0,10972.0
+All,Credit,include,Visa,Credit,811,9160700.0,11296.0
+All,Credit,exclude,Amex,Credit,323,3575700.0,11070.0
+All,Credit,exclude,Discover,Credit,171,1829600.0,10699.0
+All,Credit,exclude,Mastercard,Credit,506,5485000.0,10840.0
+All,Credit,exclude,Visa,Credit,655,7573800.0,11563.0
+All,Debit,include,Mastercard,Debit,2191,40050847.0,18280.0
+All,Debit,include,Visa,Debit,1320,25105900.0,19020.0
+All,Debit,exclude,Mastercard,Debit,1791,32837180.0,18335.0
+All,Debit,exclude,Visa,Debit,1074,20394100.0,18989.0
+All,Debit (Prepaid),include,Mastercard,Debit (Prepaid),383,24810.0,65.0
+All,Debit (Prepaid),include,Visa,Debit (Prepaid),195,12441.0,64.0
+All,Debit (Prepaid),exclude,Mastercard,Debit (Prepaid),301,19615.0,65.0
+All,Debit (Prepaid),exclude,Visa,Debit (Prepaid),147,9293.0,63.0
+Amex,All,include,Amex,Credit,402,4597400.0,11436.0
+Amex,All,exclude,Amex,Credit,323,3575700.0,11070.0
+Amex,Credit,include,Amex,Credit,402,4597400.0,11436.0
+Amex,Credit,exclude,Amex,Credit,323,3575700.0,11070.0
+Discover,All,include,Discover,Credit,209,2260600.0,10816.0
+Discover,All,exclude,Discover,Credit,171,1829600.0,10699.0
+Discover,Credit,include,Discover,Credit,209,2260600.0,10816.0
+Discover,Credit,exclude,Discover,Credit,171,1829600.0,10699.0
+Mastercard,All,include,Mastercard,Credit,635,6967000.0,10972.0
+Mastercard,All,include,Mastercard,Debit,2191,40050847.0,18280.0
+Mastercard,All,include,Mastercard,Debit (Prepaid),383,24810.0,65.0
+Mastercard,All,exclude,Mastercard,Credit,506,5485000.0,10840.0
+Mastercard,All,exclude,Mastercard,Debit,1791,32837180.0,18335.0
+Mastercard,All,exclude,Mastercard,Debit (Prepaid),301,19615.0,65.0
+Mastercard,Credit,include,Mastercard,Credit,635,6967000.0,10972.0
+Mastercard,Credit,exclude,Mastercard,Credit,506,5485000.0,10840.0
+Mastercard,Debit,include,Mastercard,Debit,2191,40050847.0,18280.0
+Mastercard,Debit,exclude,Mastercard,Debit,1791,32837180.0,18335.0
+Mastercard,Debit (Prepaid),include,Mastercard,Debit (Prepaid),383,24810.0,65.0
+Mastercard,Debit (Prepaid),exclude,Mastercard,Debit (Prepaid),301,19615.0,65.0
+Visa,All,include,Visa,Credit,811,9160700.0,11296.0
+Visa,All,include,Visa,Debit,1320,25105900.0,19020.0
+Visa,All,include,Visa,Debit (Prepaid),195,12441.0,64.0
+Visa,All,exclude,Visa,Credit,655,7573800.0,11563.0
+Visa,All,exclude,Visa,Debit,1074,20394100.0,18989.0
+Visa,All,exclude,Visa,Debit (Prepaid),147,9293.0,63.0
+Visa,Credit,include,Visa,Credit,811,9160700.0,11296.0
+Visa,Credit,exclude,Visa,Credit,655,7573800.0,11563.0
+Visa,Debit,include,Visa,Debit,1320,25105900.0,19020.0
+Visa,Debit,exclude,Visa,Debit,1074,20394100.0,18989.0
+Visa,Debit (Prepaid),include,Visa,Debit (Prepaid),195,12441.0,64.0
+Visa,Debit (Prepaid),exclude,Visa,Debit (Prepaid),147,9293.0,63.0

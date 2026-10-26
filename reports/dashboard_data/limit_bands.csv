@@ -1,0 +1,237 @@
+f_brand,f_type,f_batch,limit_band,card_type,cards,band_order
+All,All,include,$0,Credit,26,0
+All,All,include,$0,Debit,3,0
+All,All,include,$0,Debit (Prepaid),2,0
+All,All,include,$1-1K,Credit,21,1
+All,All,include,$1-1K,Debit,58,1
+All,All,include,$1-1K,Debit (Prepaid),576,1
+All,All,include,$1K-5K,Credit,186,2
+All,All,include,$1K-5K,Debit,291,2
+All,All,include,$5K-10K,Credit,794,3
+All,All,include,$5K-10K,Debit,391,3
+All,All,include,$10K-20K,Credit,869,4
+All,All,include,$10K-20K,Debit,1516,4
+All,All,include,$20K-50K,Credit,154,5
+All,All,include,$20K-50K,Debit,1167,5
+All,All,include,$50K+,Credit,7,6
+All,All,include,$50K+,Debit,85,6
+All,All,exclude,$0,Credit,22,0
+All,All,exclude,$0,Debit,3,0
+All,All,exclude,$0,Debit (Prepaid),1,0
+All,All,exclude,$1-1K,Credit,19,1
+All,All,exclude,$1-1K,Debit,49,1
+All,All,exclude,$1-1K,Debit (Prepaid),447,1
+All,All,exclude,$1K-5K,Credit,150,2
+All,All,exclude,$1K-5K,Debit,241,2
+All,All,exclude,$5K-10K,Credit,639,3
+All,All,exclude,$5K-10K,Debit,317,3
+All,All,exclude,$10K-20K,Credit,695,4
+All,All,exclude,$10K-20K,Debit,1236,4
+All,All,exclude,$20K-50K,Credit,124,5
+All,All,exclude,$20K-50K,Debit,952,5
+All,All,exclude,$50K+,Credit,6,6
+All,All,exclude,$50K+,Debit,67,6
+All,Credit,include,$0,Credit,26,0
+All,Credit,include,$1-1K,Credit,21,1
+All,Credit,include,$1K-5K,Credit,186,2
+All,Credit,include,$5K-10K,Credit,794,3
+All,Credit,include,$10K-20K,Credit,869,4
+All,Credit,include,$20K-50K,Credit,154,5
+All,Credit,include,$50K+,Credit,7,6
+All,Credit,exclude,$0,Credit,22,0
+All,Credit,exclude,$1-1K,Credit,19,1
+All,Credit,exclude,$1K-5K,Credit,150,2
+All,Credit,exclude,$5K-10K,Credit,639,3
+All,Credit,exclude,$10K-20K,Credit,695,4
+All,Credit,exclude,$20K-50K,Credit,124,5
+All,Credit,exclude,$50K+,Credit,6,6
+All,Debit,include,$0,Debit,3,0
+All,Debit,include,$1-1K,Debit,58,1
+All,Debit,include,$1K-5K,Debit,291,2
+All,Debit,include,$5K-10K,Debit,391,3
+All,Debit,include,$10K-20K,Debit,1516,4
+All,Debit,include,$20K-50K,Debit,1167,5
+All,Debit,include,$50K+,Debit,85,6
+All,Debit,exclude,$0,Debit,3,0
+All,Debit,exclude,$1-1K,Debit,49,1
+All,Debit,exclude,$1K-5K,Debit,241,2
+All,Debit,exclude,$5K-10K,Debit,317,3
+All,Debit,exclude,$10K-20K,Debit,1236,4
+All,Debit,exclude,$20K-50K,Debit,952,5
+All,Debit,exclude,$50K+,Debit,67,6
+All,Debit (Prepaid),include,$0,Debit (Prepaid),2,0
+All,Debit (Prepaid),include,$1-1K,Debit (Prepaid),576,1
+All,Debit (Prepaid),exclude,$0,Debit (Prepaid),1,0
+All,Debit (Prepaid),exclude,$1-1K,Debit (Prepaid),447,1
+Amex,All,include,$0,Credit,5,0
+Amex,All,include,$1-1K,Credit,3,1
+Amex,All,include,$1K-5K,Credit,38,2
+Amex,All,include,$5K-10K,Credit,151,3
+Amex,All,include,$10K-20K,Credit,170,4
+Amex,All,include,$20K-50K,Credit,34,5
+Amex,All,include,$50K+,Credit,1,6
+Amex,All,exclude,$0,Credit,4,0
+Amex,All,exclude,$1-1K,Credit,3,1
+Amex,All,exclude,$1K-5K,Credit,33,2
+Amex,All,exclude,$5K-10K,Credit,124,3
+Amex,All,exclude,$10K-20K,Credit,133,4
+Amex,All,exclude,$20K-50K,Credit,26,5
+Amex,Credit,include,$0,Credit,5,0
+Amex,Credit,include,$1-1K,Credit,3,1
+Amex,Credit,include,$1K-5K,Credit,38,2
+Amex,Credit,include,$5K-10K,Credit,151,3
+Amex,Credit,include,$10K-20K,Credit,170,4
+Amex,Credit,include,$20K-50K,Credit,34,5
+Amex,Credit,include,$50K+,Credit,1,6
+Amex,Credit,exclude,$0,Credit,4,0
+Amex,Credit,exclude,$1-1K,Credit,3,1
+Amex,Credit,exclude,$1K-5K,Credit,33,2
+Amex,Credit,exclude,$5K-10K,Credit,124,3
+Amex,Credit,exclude,$10K-20K,Credit,133,4
+Amex,Credit,exclude,$20K-50K,Credit,26,5
+Discover,All,include,$0,Credit,3,0
+Discover,All,include,$1-1K,Credit,1,1
+Discover,All,include,$1K-5K,Credit,23,2
+Discover,All,include,$5K-10K,Credit,82,3
+Discover,All,include,$10K-20K,Credit,87,4
+Discover,All,include,$20K-50K,Credit,13,5
+Discover,All,exclude,$0,Credit,3,0
+Discover,All,exclude,$1-1K,Credit,1,1
+Discover,All,exclude,$1K-5K,Credit,19,2
+Discover,All,exclude,$5K-10K,Credit,68,3
+Discover,All,exclude,$10K-20K,Credit,69,4
+Discover,All,exclude,$20K-50K,Credit,11,5
+Discover,Credit,include,$0,Credit,3,0
+Discover,Credit,include,$1-1K,Credit,1,1
+Discover,Credit,include,$1K-5K,Credit,23,2
+Discover,Credit,include,$5K-10K,Credit,82,3
+Discover,Credit,include,$10K-20K,Credit,87,4
+Discover,Credit,include,$20K-50K,Credit,13,5
+Discover,Credit,exclude,$0,Credit,3,0
+Discover,Credit,exclude,$1-1K,Credit,1,1
+Discover,Credit,exclude,$1K-5K,Credit,19,2
+Discover,Credit,exclude,$5K-10K,Credit,68,3
+Discover,Credit,exclude,$10K-20K,Credit,69,4
+Discover,Credit,exclude,$20K-50K,Credit,11,5
+Mastercard,All,include,$0,Credit,7,0
+Mastercard,All,include,$0,Debit,3,0
+Mastercard,All,include,$0,Debit (Prepaid),1,0
+Mastercard,All,include,$1-1K,Credit,7,1
+Mastercard,All,include,$1-1K,Debit,38,1
+Mastercard,All,include,$1-1K,Debit (Prepaid),382,1
+Mastercard,All,include,$1K-5K,Credit,51,2
+Mastercard,All,include,$1K-5K,Debit,184,2
+Mastercard,All,include,$5K-10K,Credit,243,3
+Mastercard,All,include,$5K-10K,Debit,251,3
+Mastercard,All,include,$10K-20K,Credit,282,4
+Mastercard,All,include,$10K-20K,Debit,962,4
+Mastercard,All,include,$20K-50K,Credit,43,5
+Mastercard,All,include,$20K-50K,Debit,698,5
+Mastercard,All,include,$50K+,Credit,2,6
+Mastercard,All,include,$50K+,Debit,55,6
+Mastercard,All,exclude,$0,Credit,7,0
+Mastercard,All,exclude,$0,Debit,3,0
+Mastercard,All,exclude,$1-1K,Credit,6,1
+Mastercard,All,exclude,$1-1K,Debit,33,1
+Mastercard,All,exclude,$1-1K,Debit (Prepaid),301,1
+Mastercard,All,exclude,$1K-5K,Credit,42,2
+Mastercard,All,exclude,$1K-5K,Debit,153,2
+Mastercard,All,exclude,$5K-10K,Credit,195,3
+Mastercard,All,exclude,$5K-10K,Debit,200,3
+Mastercard,All,exclude,$10K-20K,Credit,221,4
+Mastercard,All,exclude,$10K-20K,Debit,787,4
+Mastercard,All,exclude,$20K-50K,Credit,33,5
+Mastercard,All,exclude,$20K-50K,Debit,572,5
+Mastercard,All,exclude,$50K+,Credit,2,6
+Mastercard,All,exclude,$50K+,Debit,43,6
+Mastercard,Credit,include,$0,Credit,7,0
+Mastercard,Credit,include,$1-1K,Credit,7,1
+Mastercard,Credit,include,$1K-5K,Credit,51,2
+Mastercard,Credit,include,$5K-10K,Credit,243,3
+Mastercard,Credit,include,$10K-20K,Credit,282,4
+Mastercard,Credit,include,$20K-50K,Credit,43,5
+Mastercard,Credit,include,$50K+,Credit,2,6
+Mastercard,Credit,exclude,$0,Credit,7,0
+Mastercard,Credit,exclude,$1-1K,Credit,6,1
+Mastercard,Credit,exclude,$1K-5K,Credit,42,2
+Mastercard,Credit,exclude,$5K-10K,Credit,195,3
+Mastercard,Credit,exclude,$10K-20K,Credit,221,4
+Mastercard,Credit,exclude,$20K-50K,Credit,33,5
+Mastercard,Credit,exclude,$50K+,Credit,2,6
+Mastercard,Debit,include,$0,Debit,3,0
+Mastercard,Debit,include,$1-1K,Debit,38,1
+Mastercard,Debit,include,$1K-5K,Debit,184,2
+Mastercard,Debit,include,$5K-10K,Debit,251,3
+Mastercard,Debit,include,$10K-20K,Debit,962,4
+Mastercard,Debit,include,$20K-50K,Debit,698,5
+Mastercard,Debit,include,$50K+,Debit,55,6
+Mastercard,Debit,exclude,$0,Debit,3,0
+Mastercard,Debit,exclude,$1-1K,Debit,33,1
+Mastercard,Debit,exclude,$1K-5K,Debit,153,2
+Mastercard,Debit,exclude,$5K-10K,Debit,200,3
+Mastercard,Debit,exclude,$10K-20K,Debit,787,4
+Mastercard,Debit,exclude,$20K-50K,Debit,572,5
+Mastercard,Debit,exclude,$50K+,Debit,43,6
+Mastercard,Debit (Prepaid),include,$0,Debit (Prepaid),1,0
+Mastercard,Debit (Prepaid),include,$1-1K,Debit (Prepaid),382,1
+Mastercard,Debit (Prepaid),exclude,$1-1K,Debit (Prepaid),301,1
+Visa,All,include,$0,Credit,11,0
+Visa,All,include,$0,Debit (Prepaid),1,0
+Visa,All,include,$1-1K,Credit,10,1
+Visa,All,include,$1-1K,Debit,20,1
+Visa,All,include,$1-1K,Debit (Prepaid),194,1
+Visa,All,include,$1K-5K,Credit,74,2
+Visa,All,include,$1K-5K,Debit,107,2
+Visa,All,include,$5K-10K,Credit,318,3
+Visa,All,include,$5K-10K,Debit,140,3
+Visa,All,include,$10K-20K,Credit,330,4
+Visa,All,include,$10K-20K,Debit,554,4
+Visa,All,include,$20K-50K,Credit,64,5
+Visa,All,include,$20K-50K,Debit,469,5
+Visa,All,include,$50K+,Credit,4,6
+Visa,All,include,$50K+,Debit,30,6
+Visa,All,exclude,$0,Credit,8,0
+Visa,All,exclude,$0,Debit (Prepaid),1,0
+Visa,All,exclude,$1-1K,Credit,9,1
+Visa,All,exclude,$1-1K,Debit,16,1
+Visa,All,exclude,$1-1K,Debit (Prepaid),146,1
+Visa,All,exclude,$1K-5K,Credit,56,2
+Visa,All,exclude,$1K-5K,Debit,88,2
+Visa,All,exclude,$5K-10K,Credit,252,3
+Visa,All,exclude,$5K-10K,Debit,117,3
+Visa,All,exclude,$10K-20K,Credit,272,4
+Visa,All,exclude,$10K-20K,Debit,449,4
+Visa,All,exclude,$20K-50K,Credit,54,5
+Visa,All,exclude,$20K-50K,Debit,380,5
+Visa,All,exclude,$50K+,Credit,4,6
+Visa,All,exclude,$50K+,Debit,24,6
+Visa,Credit,include,$0,Credit,11,0
+Visa,Credit,include,$1-1K,Credit,10,1
+Visa,Credit,include,$1K-5K,Credit,74,2
+Visa,Credit,include,$5K-10K,Credit,318,3
+Visa,Credit,include,$10K-20K,Credit,330,4
+Visa,Credit,include,$20K-50K,Credit,64,5
+Visa,Credit,include,$50K+,Credit,4,6
+Visa,Credit,exclude,$0,Credit,8,0
+Visa,Credit,exclude,$1-1K,Credit,9,1
+Visa,Credit,exclude,$1K-5K,Credit,56,2
+Visa,Credit,exclude,$5K-10K,Credit,252,3
+Visa,Credit,exclude,$10K-20K,Credit,272,4
+Visa,Credit,exclude,$20K-50K,Credit,54,5
+Visa,Credit,exclude,$50K+,Credit,4,6
+Visa,Debit,include,$1-1K,Debit,20,1
+Visa,Debit,include,$1K-5K,Debit,107,2
+Visa,Debit,include,$5K-10K,Debit,140,3
+Visa,Debit,include,$10K-20K,Debit,554,4
+Visa,Debit,include,$20K-50K,Debit,469,5
+Visa,Debit,include,$50K+,Debit,30,6
+Visa,Debit,exclude,$1-1K,Debit,16,1
+Visa,Debit,exclude,$1K-5K,Debit,88,2
+Visa,Debit,exclude,$5K-10K,Debit,117,3
+Visa,Debit,exclude,$10K-20K,Debit,449,4
+Visa,Debit,exclude,$20K-50K,Debit,380,5
+Visa,Debit,exclude,$50K+,Debit,24,6
+Visa,Debit (Prepaid),include,$0,Debit (Prepaid),1,0
+Visa,Debit (Prepaid),include,$1-1K,Debit (Prepaid),194,1
+Visa,Debit (Prepaid),exclude,$0,Debit (Prepaid),1,0
+Visa,Debit (Prepaid),exclude,$1-1K,Debit (Prepaid),146,1

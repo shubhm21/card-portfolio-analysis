@@ -1,0 +1,861 @@
+f_brand,f_type,f_batch,acct_open_year,cards,is_2020_batch
+All,All,include,1991,3,False
+All,All,include,1992,2,False
+All,All,include,1993,3,False
+All,All,include,1994,10,False
+All,All,include,1995,6,False
+All,All,include,1996,16,False
+All,All,include,1997,27,False
+All,All,include,1998,42,False
+All,All,include,1999,61,False
+All,All,include,2000,64,False
+All,All,include,2001,121,False
+All,All,include,2002,147,False
+All,All,include,2003,197,False
+All,All,include,2004,246,False
+All,All,include,2005,300,False
+All,All,include,2006,359,False
+All,All,include,2007,408,False
+All,All,include,2008,487,False
+All,All,include,2009,466,False
+All,All,include,2010,545,False
+All,All,include,2011,335,False
+All,All,include,2012,188,False
+All,All,include,2013,199,False
+All,All,include,2014,178,False
+All,All,include,2015,148,False
+All,All,include,2016,120,False
+All,All,include,2017,101,False
+All,All,include,2018,101,False
+All,All,include,2019,88,False
+All,All,include,2020,1178,True
+All,All,exclude,1991,3,False
+All,All,exclude,1992,2,False
+All,All,exclude,1993,3,False
+All,All,exclude,1994,10,False
+All,All,exclude,1995,6,False
+All,All,exclude,1996,16,False
+All,All,exclude,1997,27,False
+All,All,exclude,1998,42,False
+All,All,exclude,1999,61,False
+All,All,exclude,2000,64,False
+All,All,exclude,2001,121,False
+All,All,exclude,2002,147,False
+All,All,exclude,2003,197,False
+All,All,exclude,2004,246,False
+All,All,exclude,2005,300,False
+All,All,exclude,2006,359,False
+All,All,exclude,2007,408,False
+All,All,exclude,2008,487,False
+All,All,exclude,2009,466,False
+All,All,exclude,2010,545,False
+All,All,exclude,2011,335,False
+All,All,exclude,2012,188,False
+All,All,exclude,2013,199,False
+All,All,exclude,2014,178,False
+All,All,exclude,2015,148,False
+All,All,exclude,2016,120,False
+All,All,exclude,2017,101,False
+All,All,exclude,2018,101,False
+All,All,exclude,2019,88,False
+All,Credit,include,1991,2,False
+All,Credit,include,1992,1,False
+All,Credit,include,1993,1,False
+All,Credit,include,1994,3,False
+All,Credit,include,1995,3,False
+All,Credit,include,1996,4,False
+All,Credit,include,1997,8,False
+All,Credit,include,1998,13,False
+All,Credit,include,1999,15,False
+All,Credit,include,2000,22,False
+All,Credit,include,2001,44,False
+All,Credit,include,2002,51,False
+All,Credit,include,2003,70,False
+All,Credit,include,2004,84,False
+All,Credit,include,2005,121,False
+All,Credit,include,2006,113,False
+All,Credit,include,2007,145,False
+All,Credit,include,2008,160,False
+All,Credit,include,2009,144,False
+All,Credit,include,2010,196,False
+All,Credit,include,2011,107,False
+All,Credit,include,2012,64,False
+All,Credit,include,2013,55,False
+All,Credit,include,2014,54,False
+All,Credit,include,2015,52,False
+All,Credit,include,2016,39,False
+All,Credit,include,2017,32,False
+All,Credit,include,2018,27,False
+All,Credit,include,2019,25,False
+All,Credit,include,2020,402,True
+All,Credit,exclude,1991,2,False
+All,Credit,exclude,1992,1,False
+All,Credit,exclude,1993,1,False
+All,Credit,exclude,1994,3,False
+All,Credit,exclude,1995,3,False
+All,Credit,exclude,1996,4,False
+All,Credit,exclude,1997,8,False
+All,Credit,exclude,1998,13,False
+All,Credit,exclude,1999,15,False
+All,Credit,exclude,2000,22,False
+All,Credit,exclude,2001,44,False
+All,Credit,exclude,2002,51,False
+All,Credit,exclude,2003,70,False
+All,Credit,exclude,2004,84,False
+All,Credit,exclude,2005,121,False
+All,Credit,exclude,2006,113,False
+All,Credit,exclude,2007,145,False
+All,Credit,exclude,2008,160,False
+All,Credit,exclude,2009,144,False
+All,Credit,exclude,2010,196,False
+All,Credit,exclude,2011,107,False
+All,Credit,exclude,2012,64,False
+All,Credit,exclude,2013,55,False
+All,Credit,exclude,2014,54,False
+All,Credit,exclude,2015,52,False
+All,Credit,exclude,2016,39,False
+All,Credit,exclude,2017,32,False
+All,Credit,exclude,2018,27,False
+All,Credit,exclude,2019,25,False
+All,Debit,include,1991,1,False
+All,Debit,include,1992,1,False
+All,Debit,include,1993,2,False
+All,Debit,include,1994,6,False
+All,Debit,include,1995,3,False
+All,Debit,include,1996,11,False
+All,Debit,include,1997,18,False
+All,Debit,include,1998,26,False
+All,Debit,include,1999,43,False
+All,Debit,include,2000,36,False
+All,Debit,include,2001,63,False
+All,Debit,include,2002,79,False
+All,Debit,include,2003,113,False
+All,Debit,include,2004,147,False
+All,Debit,include,2005,156,False
+All,Debit,include,2006,207,False
+All,Debit,include,2007,227,False
+All,Debit,include,2008,276,False
+All,Debit,include,2009,263,False
+All,Debit,include,2010,307,False
+All,Debit,include,2011,196,False
+All,Debit,include,2012,107,False
+All,Debit,include,2013,133,False
+All,Debit,include,2014,117,False
+All,Debit,include,2015,81,False
+All,Debit,include,2016,76,False
+All,Debit,include,2017,63,False
+All,Debit,include,2018,57,False
+All,Debit,include,2019,50,False
+All,Debit,include,2020,646,True
+All,Debit,exclude,1991,1,False
+All,Debit,exclude,1992,1,False
+All,Debit,exclude,1993,2,False
+All,Debit,exclude,1994,6,False
+All,Debit,exclude,1995,3,False
+All,Debit,exclude,1996,11,False
+All,Debit,exclude,1997,18,False
+All,Debit,exclude,1998,26,False
+All,Debit,exclude,1999,43,False
+All,Debit,exclude,2000,36,False
+All,Debit,exclude,2001,63,False
+All,Debit,exclude,2002,79,False
+All,Debit,exclude,2003,113,False
+All,Debit,exclude,2004,147,False
+All,Debit,exclude,2005,156,False
+All,Debit,exclude,2006,207,False
+All,Debit,exclude,2007,227,False
+All,Debit,exclude,2008,276,False
+All,Debit,exclude,2009,263,False
+All,Debit,exclude,2010,307,False
+All,Debit,exclude,2011,196,False
+All,Debit,exclude,2012,107,False
+All,Debit,exclude,2013,133,False
+All,Debit,exclude,2014,117,False
+All,Debit,exclude,2015,81,False
+All,Debit,exclude,2016,76,False
+All,Debit,exclude,2017,63,False
+All,Debit,exclude,2018,57,False
+All,Debit,exclude,2019,50,False
+All,Debit (Prepaid),include,1994,1,False
+All,Debit (Prepaid),include,1996,1,False
+All,Debit (Prepaid),include,1997,1,False
+All,Debit (Prepaid),include,1998,3,False
+All,Debit (Prepaid),include,1999,3,False
+All,Debit (Prepaid),include,2000,6,False
+All,Debit (Prepaid),include,2001,14,False
+All,Debit (Prepaid),include,2002,17,False
+All,Debit (Prepaid),include,2003,14,False
+All,Debit (Prepaid),include,2004,15,False
+All,Debit (Prepaid),include,2005,23,False
+All,Debit (Prepaid),include,2006,39,False
+All,Debit (Prepaid),include,2007,36,False
+All,Debit (Prepaid),include,2008,51,False
+All,Debit (Prepaid),include,2009,59,False
+All,Debit (Prepaid),include,2010,42,False
+All,Debit (Prepaid),include,2011,32,False
+All,Debit (Prepaid),include,2012,17,False
+All,Debit (Prepaid),include,2013,11,False
+All,Debit (Prepaid),include,2014,7,False
+All,Debit (Prepaid),include,2015,15,False
+All,Debit (Prepaid),include,2016,5,False
+All,Debit (Prepaid),include,2017,6,False
+All,Debit (Prepaid),include,2018,17,False
+All,Debit (Prepaid),include,2019,13,False
+All,Debit (Prepaid),include,2020,130,True
+All,Debit (Prepaid),exclude,1994,1,False
+All,Debit (Prepaid),exclude,1996,1,False
+All,Debit (Prepaid),exclude,1997,1,False
+All,Debit (Prepaid),exclude,1998,3,False
+All,Debit (Prepaid),exclude,1999,3,False
+All,Debit (Prepaid),exclude,2000,6,False
+All,Debit (Prepaid),exclude,2001,14,False
+All,Debit (Prepaid),exclude,2002,17,False
+All,Debit (Prepaid),exclude,2003,14,False
+All,Debit (Prepaid),exclude,2004,15,False
+All,Debit (Prepaid),exclude,2005,23,False
+All,Debit (Prepaid),exclude,2006,39,False
+All,Debit (Prepaid),exclude,2007,36,False
+All,Debit (Prepaid),exclude,2008,51,False
+All,Debit (Prepaid),exclude,2009,59,False
+All,Debit (Prepaid),exclude,2010,42,False
+All,Debit (Prepaid),exclude,2011,32,False
+All,Debit (Prepaid),exclude,2012,17,False
+All,Debit (Prepaid),exclude,2013,11,False
+All,Debit (Prepaid),exclude,2014,7,False
+All,Debit (Prepaid),exclude,2015,15,False
+All,Debit (Prepaid),exclude,2016,5,False
+All,Debit (Prepaid),exclude,2017,6,False
+All,Debit (Prepaid),exclude,2018,17,False
+All,Debit (Prepaid),exclude,2019,13,False
+Amex,All,include,1991,1,False
+Amex,All,include,1995,1,False
+Amex,All,include,1996,1,False
+Amex,All,include,1997,1,False
+Amex,All,include,1998,7,False
+Amex,All,include,1999,4,False
+Amex,All,include,2000,3,False
+Amex,All,include,2001,7,False
+Amex,All,include,2002,8,False
+Amex,All,include,2003,13,False
+Amex,All,include,2004,18,False
+Amex,All,include,2005,26,False
+Amex,All,include,2006,22,False
+Amex,All,include,2007,31,False
+Amex,All,include,2008,28,False
+Amex,All,include,2009,22,False
+Amex,All,include,2010,34,False
+Amex,All,include,2011,20,False
+Amex,All,include,2012,13,False
+Amex,All,include,2013,12,False
+Amex,All,include,2014,8,False
+Amex,All,include,2015,13,False
+Amex,All,include,2016,7,False
+Amex,All,include,2017,8,False
+Amex,All,include,2018,9,False
+Amex,All,include,2019,6,False
+Amex,All,include,2020,79,True
+Amex,All,exclude,1991,1,False
+Amex,All,exclude,1995,1,False
+Amex,All,exclude,1996,1,False
+Amex,All,exclude,1997,1,False
+Amex,All,exclude,1998,7,False
+Amex,All,exclude,1999,4,False
+Amex,All,exclude,2000,3,False
+Amex,All,exclude,2001,7,False
+Amex,All,exclude,2002,8,False
+Amex,All,exclude,2003,13,False
+Amex,All,exclude,2004,18,False
+Amex,All,exclude,2005,26,False
+Amex,All,exclude,2006,22,False
+Amex,All,exclude,2007,31,False
+Amex,All,exclude,2008,28,False
+Amex,All,exclude,2009,22,False
+Amex,All,exclude,2010,34,False
+Amex,All,exclude,2011,20,False
+Amex,All,exclude,2012,13,False
+Amex,All,exclude,2013,12,False
+Amex,All,exclude,2014,8,False
+Amex,All,exclude,2015,13,False
+Amex,All,exclude,2016,7,False
+Amex,All,exclude,2017,8,False
+Amex,All,exclude,2018,9,False
+Amex,All,exclude,2019,6,False
+Amex,Credit,include,1991,1,False
+Amex,Credit,include,1995,1,False
+Amex,Credit,include,1996,1,False
+Amex,Credit,include,1997,1,False
+Amex,Credit,include,1998,7,False
+Amex,Credit,include,1999,4,False
+Amex,Credit,include,2000,3,False
+Amex,Credit,include,2001,7,False
+Amex,Credit,include,2002,8,False
+Amex,Credit,include,2003,13,False
+Amex,Credit,include,2004,18,False
+Amex,Credit,include,2005,26,False
+Amex,Credit,include,2006,22,False
+Amex,Credit,include,2007,31,False
+Amex,Credit,include,2008,28,False
+Amex,Credit,include,2009,22,False
+Amex,Credit,include,2010,34,False
+Amex,Credit,include,2011,20,False
+Amex,Credit,include,2012,13,False
+Amex,Credit,include,2013,12,False
+Amex,Credit,include,2014,8,False
+Amex,Credit,include,2015,13,False
+Amex,Credit,include,2016,7,False
+Amex,Credit,include,2017,8,False
+Amex,Credit,include,2018,9,False
+Amex,Credit,include,2019,6,False
+Amex,Credit,include,2020,79,True
+Amex,Credit,exclude,1991,1,False
+Amex,Credit,exclude,1995,1,False
+Amex,Credit,exclude,1996,1,False
+Amex,Credit,exclude,1997,1,False
+Amex,Credit,exclude,1998,7,False
+Amex,Credit,exclude,1999,4,False
+Amex,Credit,exclude,2000,3,False
+Amex,Credit,exclude,2001,7,False
+Amex,Credit,exclude,2002,8,False
+Amex,Credit,exclude,2003,13,False
+Amex,Credit,exclude,2004,18,False
+Amex,Credit,exclude,2005,26,False
+Amex,Credit,exclude,2006,22,False
+Amex,Credit,exclude,2007,31,False
+Amex,Credit,exclude,2008,28,False
+Amex,Credit,exclude,2009,22,False
+Amex,Credit,exclude,2010,34,False
+Amex,Credit,exclude,2011,20,False
+Amex,Credit,exclude,2012,13,False
+Amex,Credit,exclude,2013,12,False
+Amex,Credit,exclude,2014,8,False
+Amex,Credit,exclude,2015,13,False
+Amex,Credit,exclude,2016,7,False
+Amex,Credit,exclude,2017,8,False
+Amex,Credit,exclude,2018,9,False
+Amex,Credit,exclude,2019,6,False
+Discover,All,include,1991,1,False
+Discover,All,include,1997,3,False
+Discover,All,include,1998,1,False
+Discover,All,include,2000,2,False
+Discover,All,include,2001,8,False
+Discover,All,include,2002,5,False
+Discover,All,include,2003,9,False
+Discover,All,include,2004,10,False
+Discover,All,include,2005,9,False
+Discover,All,include,2006,15,False
+Discover,All,include,2007,12,False
+Discover,All,include,2008,13,False
+Discover,All,include,2009,13,False
+Discover,All,include,2010,20,False
+Discover,All,include,2011,16,False
+Discover,All,include,2012,3,False
+Discover,All,include,2013,6,False
+Discover,All,include,2014,8,False
+Discover,All,include,2015,6,False
+Discover,All,include,2016,7,False
+Discover,All,include,2017,2,False
+Discover,All,include,2018,1,False
+Discover,All,include,2019,1,False
+Discover,All,include,2020,38,True
+Discover,All,exclude,1991,1,False
+Discover,All,exclude,1997,3,False
+Discover,All,exclude,1998,1,False
+Discover,All,exclude,2000,2,False
+Discover,All,exclude,2001,8,False
+Discover,All,exclude,2002,5,False
+Discover,All,exclude,2003,9,False
+Discover,All,exclude,2004,10,False
+Discover,All,exclude,2005,9,False
+Discover,All,exclude,2006,15,False
+Discover,All,exclude,2007,12,False
+Discover,All,exclude,2008,13,False
+Discover,All,exclude,2009,13,False
+Discover,All,exclude,2010,20,False
+Discover,All,exclude,2011,16,False
+Discover,All,exclude,2012,3,False
+Discover,All,exclude,2013,6,False
+Discover,All,exclude,2014,8,False
+Discover,All,exclude,2015,6,False
+Discover,All,exclude,2016,7,False
+Discover,All,exclude,2017,2,False
+Discover,All,exclude,2018,1,False
+Discover,All,exclude,2019,1,False
+Discover,Credit,include,1991,1,False
+Discover,Credit,include,1997,3,False
+Discover,Credit,include,1998,1,False
+Discover,Credit,include,2000,2,False
+Discover,Credit,include,2001,8,False
+Discover,Credit,include,2002,5,False
+Discover,Credit,include,2003,9,False
+Discover,Credit,include,2004,10,False
+Discover,Credit,include,2005,9,False
+Discover,Credit,include,2006,15,False
+Discover,Credit,include,2007,12,False
+Discover,Credit,include,2008,13,False
+Discover,Credit,include,2009,13,False
+Discover,Credit,include,2010,20,False
+Discover,Credit,include,2011,16,False
+Discover,Credit,include,2012,3,False
+Discover,Credit,include,2013,6,False
+Discover,Credit,include,2014,8,False
+Discover,Credit,include,2015,6,False
+Discover,Credit,include,2016,7,False
+Discover,Credit,include,2017,2,False
+Discover,Credit,include,2018,1,False
+Discover,Credit,include,2019,1,False
+Discover,Credit,include,2020,38,True
+Discover,Credit,exclude,1991,1,False
+Discover,Credit,exclude,1997,3,False
+Discover,Credit,exclude,1998,1,False
+Discover,Credit,exclude,2000,2,False
+Discover,Credit,exclude,2001,8,False
+Discover,Credit,exclude,2002,5,False
+Discover,Credit,exclude,2003,9,False
+Discover,Credit,exclude,2004,10,False
+Discover,Credit,exclude,2005,9,False
+Discover,Credit,exclude,2006,15,False
+Discover,Credit,exclude,2007,12,False
+Discover,Credit,exclude,2008,13,False
+Discover,Credit,exclude,2009,13,False
+Discover,Credit,exclude,2010,20,False
+Discover,Credit,exclude,2011,16,False
+Discover,Credit,exclude,2012,3,False
+Discover,Credit,exclude,2013,6,False
+Discover,Credit,exclude,2014,8,False
+Discover,Credit,exclude,2015,6,False
+Discover,Credit,exclude,2016,7,False
+Discover,Credit,exclude,2017,2,False
+Discover,Credit,exclude,2018,1,False
+Discover,Credit,exclude,2019,1,False
+Mastercard,All,include,1991,1,False
+Mastercard,All,include,1992,1,False
+Mastercard,All,include,1993,1,False
+Mastercard,All,include,1994,6,False
+Mastercard,All,include,1995,4,False
+Mastercard,All,include,1996,9,False
+Mastercard,All,include,1997,12,False
+Mastercard,All,include,1998,26,False
+Mastercard,All,include,1999,34,False
+Mastercard,All,include,2000,29,False
+Mastercard,All,include,2001,68,False
+Mastercard,All,include,2002,78,False
+Mastercard,All,include,2003,100,False
+Mastercard,All,include,2004,131,False
+Mastercard,All,include,2005,149,False
+Mastercard,All,include,2006,193,False
+Mastercard,All,include,2007,220,False
+Mastercard,All,include,2008,277,False
+Mastercard,All,include,2009,238,False
+Mastercard,All,include,2010,276,False
+Mastercard,All,include,2011,163,False
+Mastercard,All,include,2012,101,False
+Mastercard,All,include,2013,103,False
+Mastercard,All,include,2014,93,False
+Mastercard,All,include,2015,68,False
+Mastercard,All,include,2016,66,False
+Mastercard,All,include,2017,55,False
+Mastercard,All,include,2018,47,False
+Mastercard,All,include,2019,49,False
+Mastercard,All,include,2020,611,True
+Mastercard,All,exclude,1991,1,False
+Mastercard,All,exclude,1992,1,False
+Mastercard,All,exclude,1993,1,False
+Mastercard,All,exclude,1994,6,False
+Mastercard,All,exclude,1995,4,False
+Mastercard,All,exclude,1996,9,False
+Mastercard,All,exclude,1997,12,False
+Mastercard,All,exclude,1998,26,False
+Mastercard,All,exclude,1999,34,False
+Mastercard,All,exclude,2000,29,False
+Mastercard,All,exclude,2001,68,False
+Mastercard,All,exclude,2002,78,False
+Mastercard,All,exclude,2003,100,False
+Mastercard,All,exclude,2004,131,False
+Mastercard,All,exclude,2005,149,False
+Mastercard,All,exclude,2006,193,False
+Mastercard,All,exclude,2007,220,False
+Mastercard,All,exclude,2008,277,False
+Mastercard,All,exclude,2009,238,False
+Mastercard,All,exclude,2010,276,False
+Mastercard,All,exclude,2011,163,False
+Mastercard,All,exclude,2012,101,False
+Mastercard,All,exclude,2013,103,False
+Mastercard,All,exclude,2014,93,False
+Mastercard,All,exclude,2015,68,False
+Mastercard,All,exclude,2016,66,False
+Mastercard,All,exclude,2017,55,False
+Mastercard,All,exclude,2018,47,False
+Mastercard,All,exclude,2019,49,False
+Mastercard,Credit,include,1992,1,False
+Mastercard,Credit,include,1994,2,False
+Mastercard,Credit,include,1995,1,False
+Mastercard,Credit,include,1996,1,False
+Mastercard,Credit,include,1997,2,False
+Mastercard,Credit,include,1998,2,False
+Mastercard,Credit,include,1999,4,False
+Mastercard,Credit,include,2000,3,False
+Mastercard,Credit,include,2001,16,False
+Mastercard,Credit,include,2002,9,False
+Mastercard,Credit,include,2003,25,False
+Mastercard,Credit,include,2004,22,False
+Mastercard,Credit,include,2005,37,False
+Mastercard,Credit,include,2006,39,False
+Mastercard,Credit,include,2007,52,False
+Mastercard,Credit,include,2008,65,False
+Mastercard,Credit,include,2009,36,False
+Mastercard,Credit,include,2010,61,False
+Mastercard,Credit,include,2011,29,False
+Mastercard,Credit,include,2012,21,False
+Mastercard,Credit,include,2013,14,False
+Mastercard,Credit,include,2014,19,False
+Mastercard,Credit,include,2015,14,False
+Mastercard,Credit,include,2016,11,False
+Mastercard,Credit,include,2017,9,False
+Mastercard,Credit,include,2018,4,False
+Mastercard,Credit,include,2019,7,False
+Mastercard,Credit,include,2020,129,True
+Mastercard,Credit,exclude,1992,1,False
+Mastercard,Credit,exclude,1994,2,False
+Mastercard,Credit,exclude,1995,1,False
+Mastercard,Credit,exclude,1996,1,False
+Mastercard,Credit,exclude,1997,2,False
+Mastercard,Credit,exclude,1998,2,False
+Mastercard,Credit,exclude,1999,4,False
+Mastercard,Credit,exclude,2000,3,False
+Mastercard,Credit,exclude,2001,16,False
+Mastercard,Credit,exclude,2002,9,False
+Mastercard,Credit,exclude,2003,25,False
+Mastercard,Credit,exclude,2004,22,False
+Mastercard,Credit,exclude,2005,37,False
+Mastercard,Credit,exclude,2006,39,False
+Mastercard,Credit,exclude,2007,52,False
+Mastercard,Credit,exclude,2008,65,False
+Mastercard,Credit,exclude,2009,36,False
+Mastercard,Credit,exclude,2010,61,False
+Mastercard,Credit,exclude,2011,29,False
+Mastercard,Credit,exclude,2012,21,False
+Mastercard,Credit,exclude,2013,14,False
+Mastercard,Credit,exclude,2014,19,False
+Mastercard,Credit,exclude,2015,14,False
+Mastercard,Credit,exclude,2016,11,False
+Mastercard,Credit,exclude,2017,9,False
+Mastercard,Credit,exclude,2018,4,False
+Mastercard,Credit,exclude,2019,7,False
+Mastercard,Debit,include,1991,1,False
+Mastercard,Debit,include,1993,1,False
+Mastercard,Debit,include,1994,4,False
+Mastercard,Debit,include,1995,3,False
+Mastercard,Debit,include,1996,7,False
+Mastercard,Debit,include,1997,10,False
+Mastercard,Debit,include,1998,21,False
+Mastercard,Debit,include,1999,28,False
+Mastercard,Debit,include,2000,22,False
+Mastercard,Debit,include,2001,42,False
+Mastercard,Debit,include,2002,56,False
+Mastercard,Debit,include,2003,68,False
+Mastercard,Debit,include,2004,100,False
+Mastercard,Debit,include,2005,99,False
+Mastercard,Debit,include,2006,126,False
+Mastercard,Debit,include,2007,144,False
+Mastercard,Debit,include,2008,173,False
+Mastercard,Debit,include,2009,161,False
+Mastercard,Debit,include,2010,189,False
+Mastercard,Debit,include,2011,112,False
+Mastercard,Debit,include,2012,67,False
+Mastercard,Debit,include,2013,81,False
+Mastercard,Debit,include,2014,71,False
+Mastercard,Debit,include,2015,45,False
+Mastercard,Debit,include,2016,52,False
+Mastercard,Debit,include,2017,42,False
+Mastercard,Debit,include,2018,33,False
+Mastercard,Debit,include,2019,33,False
+Mastercard,Debit,include,2020,400,True
+Mastercard,Debit,exclude,1991,1,False
+Mastercard,Debit,exclude,1993,1,False
+Mastercard,Debit,exclude,1994,4,False
+Mastercard,Debit,exclude,1995,3,False
+Mastercard,Debit,exclude,1996,7,False
+Mastercard,Debit,exclude,1997,10,False
+Mastercard,Debit,exclude,1998,21,False
+Mastercard,Debit,exclude,1999,28,False
+Mastercard,Debit,exclude,2000,22,False
+Mastercard,Debit,exclude,2001,42,False
+Mastercard,Debit,exclude,2002,56,False
+Mastercard,Debit,exclude,2003,68,False
+Mastercard,Debit,exclude,2004,100,False
+Mastercard,Debit,exclude,2005,99,False
+Mastercard,Debit,exclude,2006,126,False
+Mastercard,Debit,exclude,2007,144,False
+Mastercard,Debit,exclude,2008,173,False
+Mastercard,Debit,exclude,2009,161,False
+Mastercard,Debit,exclude,2010,189,False
+Mastercard,Debit,exclude,2011,112,False
+Mastercard,Debit,exclude,2012,67,False
+Mastercard,Debit,exclude,2013,81,False
+Mastercard,Debit,exclude,2014,71,False
+Mastercard,Debit,exclude,2015,45,False
+Mastercard,Debit,exclude,2016,52,False
+Mastercard,Debit,exclude,2017,42,False
+Mastercard,Debit,exclude,2018,33,False
+Mastercard,Debit,exclude,2019,33,False
+Mastercard,Debit (Prepaid),include,1996,1,False
+Mastercard,Debit (Prepaid),include,1998,3,False
+Mastercard,Debit (Prepaid),include,1999,2,False
+Mastercard,Debit (Prepaid),include,2000,4,False
+Mastercard,Debit (Prepaid),include,2001,10,False
+Mastercard,Debit (Prepaid),include,2002,13,False
+Mastercard,Debit (Prepaid),include,2003,7,False
+Mastercard,Debit (Prepaid),include,2004,9,False
+Mastercard,Debit (Prepaid),include,2005,13,False
+Mastercard,Debit (Prepaid),include,2006,28,False
+Mastercard,Debit (Prepaid),include,2007,24,False
+Mastercard,Debit (Prepaid),include,2008,39,False
+Mastercard,Debit (Prepaid),include,2009,41,False
+Mastercard,Debit (Prepaid),include,2010,26,False
+Mastercard,Debit (Prepaid),include,2011,22,False
+Mastercard,Debit (Prepaid),include,2012,13,False
+Mastercard,Debit (Prepaid),include,2013,8,False
+Mastercard,Debit (Prepaid),include,2014,3,False
+Mastercard,Debit (Prepaid),include,2015,9,False
+Mastercard,Debit (Prepaid),include,2016,3,False
+Mastercard,Debit (Prepaid),include,2017,4,False
+Mastercard,Debit (Prepaid),include,2018,10,False
+Mastercard,Debit (Prepaid),include,2019,9,False
+Mastercard,Debit (Prepaid),include,2020,82,True
+Mastercard,Debit (Prepaid),exclude,1996,1,False
+Mastercard,Debit (Prepaid),exclude,1998,3,False
+Mastercard,Debit (Prepaid),exclude,1999,2,False
+Mastercard,Debit (Prepaid),exclude,2000,4,False
+Mastercard,Debit (Prepaid),exclude,2001,10,False
+Mastercard,Debit (Prepaid),exclude,2002,13,False
+Mastercard,Debit (Prepaid),exclude,2003,7,False
+Mastercard,Debit (Prepaid),exclude,2004,9,False
+Mastercard,Debit (Prepaid),exclude,2005,13,False
+Mastercard,Debit (Prepaid),exclude,2006,28,False
+Mastercard,Debit (Prepaid),exclude,2007,24,False
+Mastercard,Debit (Prepaid),exclude,2008,39,False
+Mastercard,Debit (Prepaid),exclude,2009,41,False
+Mastercard,Debit (Prepaid),exclude,2010,26,False
+Mastercard,Debit (Prepaid),exclude,2011,22,False
+Mastercard,Debit (Prepaid),exclude,2012,13,False
+Mastercard,Debit (Prepaid),exclude,2013,8,False
+Mastercard,Debit (Prepaid),exclude,2014,3,False
+Mastercard,Debit (Prepaid),exclude,2015,9,False
+Mastercard,Debit (Prepaid),exclude,2016,3,False
+Mastercard,Debit (Prepaid),exclude,2017,4,False
+Mastercard,Debit (Prepaid),exclude,2018,10,False
+Mastercard,Debit (Prepaid),exclude,2019,9,False
+Visa,All,include,1992,1,False
+Visa,All,include,1993,2,False
+Visa,All,include,1994,4,False
+Visa,All,include,1995,1,False
+Visa,All,include,1996,6,False
+Visa,All,include,1997,11,False
+Visa,All,include,1998,8,False
+Visa,All,include,1999,23,False
+Visa,All,include,2000,30,False
+Visa,All,include,2001,38,False
+Visa,All,include,2002,56,False
+Visa,All,include,2003,75,False
+Visa,All,include,2004,87,False
+Visa,All,include,2005,116,False
+Visa,All,include,2006,129,False
+Visa,All,include,2007,145,False
+Visa,All,include,2008,169,False
+Visa,All,include,2009,193,False
+Visa,All,include,2010,215,False
+Visa,All,include,2011,136,False
+Visa,All,include,2012,71,False
+Visa,All,include,2013,78,False
+Visa,All,include,2014,69,False
+Visa,All,include,2015,61,False
+Visa,All,include,2016,40,False
+Visa,All,include,2017,36,False
+Visa,All,include,2018,44,False
+Visa,All,include,2019,32,False
+Visa,All,include,2020,450,True
+Visa,All,exclude,1992,1,False
+Visa,All,exclude,1993,2,False
+Visa,All,exclude,1994,4,False
+Visa,All,exclude,1995,1,False
+Visa,All,exclude,1996,6,False
+Visa,All,exclude,1997,11,False
+Visa,All,exclude,1998,8,False
+Visa,All,exclude,1999,23,False
+Visa,All,exclude,2000,30,False
+Visa,All,exclude,2001,38,False
+Visa,All,exclude,2002,56,False
+Visa,All,exclude,2003,75,False
+Visa,All,exclude,2004,87,False
+Visa,All,exclude,2005,116,False
+Visa,All,exclude,2006,129,False
+Visa,All,exclude,2007,145,False
+Visa,All,exclude,2008,169,False
+Visa,All,exclude,2009,193,False
+Visa,All,exclude,2010,215,False
+Visa,All,exclude,2011,136,False
+Visa,All,exclude,2012,71,False
+Visa,All,exclude,2013,78,False
+Visa,All,exclude,2014,69,False
+Visa,All,exclude,2015,61,False
+Visa,All,exclude,2016,40,False
+Visa,All,exclude,2017,36,False
+Visa,All,exclude,2018,44,False
+Visa,All,exclude,2019,32,False
+Visa,Credit,include,1993,1,False
+Visa,Credit,include,1994,1,False
+Visa,Credit,include,1995,1,False
+Visa,Credit,include,1996,2,False
+Visa,Credit,include,1997,2,False
+Visa,Credit,include,1998,3,False
+Visa,Credit,include,1999,7,False
+Visa,Credit,include,2000,14,False
+Visa,Credit,include,2001,13,False
+Visa,Credit,include,2002,29,False
+Visa,Credit,include,2003,23,False
+Visa,Credit,include,2004,34,False
+Visa,Credit,include,2005,49,False
+Visa,Credit,include,2006,37,False
+Visa,Credit,include,2007,50,False
+Visa,Credit,include,2008,54,False
+Visa,Credit,include,2009,73,False
+Visa,Credit,include,2010,81,False
+Visa,Credit,include,2011,42,False
+Visa,Credit,include,2012,27,False
+Visa,Credit,include,2013,23,False
+Visa,Credit,include,2014,19,False
+Visa,Credit,include,2015,19,False
+Visa,Credit,include,2016,14,False
+Visa,Credit,include,2017,13,False
+Visa,Credit,include,2018,13,False
+Visa,Credit,include,2019,11,False
+Visa,Credit,include,2020,156,True
+Visa,Credit,exclude,1993,1,False
+Visa,Credit,exclude,1994,1,False
+Visa,Credit,exclude,1995,1,False
+Visa,Credit,exclude,1996,2,False
+Visa,Credit,exclude,1997,2,False
+Visa,Credit,exclude,1998,3,False
+Visa,Credit,exclude,1999,7,False
+Visa,Credit,exclude,2000,14,False
+Visa,Credit,exclude,2001,13,False
+Visa,Credit,exclude,2002,29,False
+Visa,Credit,exclude,2003,23,False
+Visa,Credit,exclude,2004,34,False
+Visa,Credit,exclude,2005,49,False
+Visa,Credit,exclude,2006,37,False
+Visa,Credit,exclude,2007,50,False
+Visa,Credit,exclude,2008,54,False
+Visa,Credit,exclude,2009,73,False
+Visa,Credit,exclude,2010,81,False
+Visa,Credit,exclude,2011,42,False
+Visa,Credit,exclude,2012,27,False
+Visa,Credit,exclude,2013,23,False
+Visa,Credit,exclude,2014,19,False
+Visa,Credit,exclude,2015,19,False
+Visa,Credit,exclude,2016,14,False
+Visa,Credit,exclude,2017,13,False
+Visa,Credit,exclude,2018,13,False
+Visa,Credit,exclude,2019,11,False
+Visa,Debit,include,1992,1,False
+Visa,Debit,include,1993,1,False
+Visa,Debit,include,1994,2,False
+Visa,Debit,include,1996,4,False
+Visa,Debit,include,1997,8,False
+Visa,Debit,include,1998,5,False
+Visa,Debit,include,1999,15,False
+Visa,Debit,include,2000,14,False
+Visa,Debit,include,2001,21,False
+Visa,Debit,include,2002,23,False
+Visa,Debit,include,2003,45,False
+Visa,Debit,include,2004,47,False
+Visa,Debit,include,2005,57,False
+Visa,Debit,include,2006,81,False
+Visa,Debit,include,2007,83,False
+Visa,Debit,include,2008,103,False
+Visa,Debit,include,2009,102,False
+Visa,Debit,include,2010,118,False
+Visa,Debit,include,2011,84,False
+Visa,Debit,include,2012,40,False
+Visa,Debit,include,2013,52,False
+Visa,Debit,include,2014,46,False
+Visa,Debit,include,2015,36,False
+Visa,Debit,include,2016,24,False
+Visa,Debit,include,2017,21,False
+Visa,Debit,include,2018,24,False
+Visa,Debit,include,2019,17,False
+Visa,Debit,include,2020,246,True
+Visa,Debit,exclude,1992,1,False
+Visa,Debit,exclude,1993,1,False
+Visa,Debit,exclude,1994,2,False
+Visa,Debit,exclude,1996,4,False
+Visa,Debit,exclude,1997,8,False
+Visa,Debit,exclude,1998,5,False
+Visa,Debit,exclude,1999,15,False
+Visa,Debit,exclude,2000,14,False
+Visa,Debit,exclude,2001,21,False
+Visa,Debit,exclude,2002,23,False
+Visa,Debit,exclude,2003,45,False
+Visa,Debit,exclude,2004,47,False
+Visa,Debit,exclude,2005,57,False
+Visa,Debit,exclude,2006,81,False
+Visa,Debit,exclude,2007,83,False
+Visa,Debit,exclude,2008,103,False
+Visa,Debit,exclude,2009,102,False
+Visa,Debit,exclude,2010,118,False
+Visa,Debit,exclude,2011,84,False
+Visa,Debit,exclude,2012,40,False
+Visa,Debit,exclude,2013,52,False
+Visa,Debit,exclude,2014,46,False
+Visa,Debit,exclude,2015,36,False
+Visa,Debit,exclude,2016,24,False
+Visa,Debit,exclude,2017,21,False
+Visa,Debit,exclude,2018,24,False
+Visa,Debit,exclude,2019,17,False
+Visa,Debit (Prepaid),include,1994,1,False
+Visa,Debit (Prepaid),include,1997,1,False
+Visa,Debit (Prepaid),include,1999,1,False
+Visa,Debit (Prepaid),include,2000,2,False
+Visa,Debit (Prepaid),include,2001,4,False
+Visa,Debit (Prepaid),include,2002,4,False
+Visa,Debit (Prepaid),include,2003,7,False
+Visa,Debit (Prepaid),include,2004,6,False
+Visa,Debit (Prepaid),include,2005,10,False
+Visa,Debit (Prepaid),include,2006,11,False
+Visa,Debit (Prepaid),include,2007,12,False
+Visa,Debit (Prepaid),include,2008,12,False
+Visa,Debit (Prepaid),include,2009,18,False
+Visa,Debit (Prepaid),include,2010,16,False
+Visa,Debit (Prepaid),include,2011,10,False
+Visa,Debit (Prepaid),include,2012,4,False
+Visa,Debit (Prepaid),include,2013,3,False
+Visa,Debit (Prepaid),include,2014,4,False
+Visa,Debit (Prepaid),include,2015,6,False
+Visa,Debit (Prepaid),include,2016,2,False
+Visa,Debit (Prepaid),include,2017,2,False
+Visa,Debit (Prepaid),include,2018,7,False
+Visa,Debit (Prepaid),include,2019,4,False
+Visa,Debit (Prepaid),include,2020,48,True
+Visa,Debit (Prepaid),exclude,1994,1,False
+Visa,Debit (Prepaid),exclude,1997,1,False
+Visa,Debit (Prepaid),exclude,1999,1,False
+Visa,Debit (Prepaid),exclude,2000,2,False
+Visa,Debit (Prepaid),exclude,2001,4,False
+Visa,Debit (Prepaid),exclude,2002,4,False
+Visa,Debit (Prepaid),exclude,2003,7,False
+Visa,Debit (Prepaid),exclude,2004,6,False
+Visa,Debit (Prepaid),exclude,2005,10,False
+Visa,Debit (Prepaid),exclude,2006,11,False
+Visa,Debit (Prepaid),exclude,2007,12,False
+Visa,Debit (Prepaid),exclude,2008,12,False
+Visa,Debit (Prepaid),exclude,2009,18,False
+Visa,Debit (Prepaid),exclude,2010,16,False
+Visa,Debit (Prepaid),exclude,2011,10,False
+Visa,Debit (Prepaid),exclude,2012,4,False
+Visa,Debit (Prepaid),exclude,2013,3,False
+Visa,Debit (Prepaid),exclude,2014,4,False
+Visa,Debit (Prepaid),exclude,2015,6,False
+Visa,Debit (Prepaid),exclude,2016,2,False
+Visa,Debit (Prepaid),exclude,2017,2,False
+Visa,Debit (Prepaid),exclude,2018,7,False
+Visa,Debit (Prepaid),exclude,2019,4,False

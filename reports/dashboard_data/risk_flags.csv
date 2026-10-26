@@ -1,0 +1,161 @@
+f_brand,f_type,f_batch,flag,cards,share
+All,All,include,No chip,646,0.1051
+All,All,include,PIN unchanged 10+ yrs,1782,0.2899
+All,All,include,Expired,1244,0.2024
+All,All,include,2+ flags (High risk),668,0.1087
+All,All,include,All 3 flags,58,0.0094
+All,All,exclude,No chip,514,0.1035
+All,All,exclude,PIN unchanged 10+ yrs,1782,0.3587
+All,All,exclude,Expired,1172,0.2359
+All,All,exclude,2+ flags (High risk),657,0.1322
+All,All,exclude,All 3 flags,58,0.0117
+All,Credit,include,No chip,215,0.1045
+All,Credit,include,PIN unchanged 10+ yrs,591,0.2873
+All,Credit,include,Expired,426,0.2071
+All,Credit,include,2+ flags (High risk),234,0.1138
+All,Credit,include,All 3 flags,23,0.0112
+All,Credit,exclude,No chip,170,0.1027
+All,Credit,exclude,PIN unchanged 10+ yrs,591,0.3571
+All,Credit,exclude,Expired,403,0.2435
+All,Credit,exclude,2+ flags (High risk),232,0.1402
+All,Credit,exclude,All 3 flags,23,0.0139
+All,Debit,include,No chip,370,0.1054
+All,Debit,include,PIN unchanged 10+ yrs,1029,0.2931
+All,Debit,include,Expired,696,0.1982
+All,Debit,include,2+ flags (High risk),367,0.1045
+All,Debit,include,All 3 flags,31,0.0088
+All,Debit,exclude,No chip,300,0.1047
+All,Debit,exclude,PIN unchanged 10+ yrs,1029,0.3592
+All,Debit,exclude,Expired,656,0.229
+All,Debit,exclude,2+ flags (High risk),360,0.1257
+All,Debit,exclude,All 3 flags,31,0.0108
+All,Debit (Prepaid),include,No chip,61,0.1055
+All,Debit (Prepaid),include,PIN unchanged 10+ yrs,162,0.2803
+All,Debit (Prepaid),include,Expired,122,0.2111
+All,Debit (Prepaid),include,2+ flags (High risk),67,0.1159
+All,Debit (Prepaid),include,All 3 flags,4,0.0069
+All,Debit (Prepaid),exclude,No chip,44,0.0982
+All,Debit (Prepaid),exclude,PIN unchanged 10+ yrs,162,0.3616
+All,Debit (Prepaid),exclude,Expired,113,0.2522
+All,Debit (Prepaid),exclude,2+ flags (High risk),65,0.1451
+All,Debit (Prepaid),exclude,All 3 flags,4,0.0089
+Amex,All,include,No chip,35,0.0871
+Amex,All,include,PIN unchanged 10+ yrs,107,0.2662
+Amex,All,include,Expired,78,0.194
+Amex,All,include,2+ flags (High risk),44,0.1095
+Amex,All,include,All 3 flags,3,0.0075
+Amex,All,exclude,No chip,29,0.0898
+Amex,All,exclude,PIN unchanged 10+ yrs,107,0.3313
+Amex,All,exclude,Expired,74,0.2291
+Amex,All,exclude,2+ flags (High risk),43,0.1331
+Amex,All,exclude,All 3 flags,3,0.0093
+Amex,Credit,include,No chip,35,0.0871
+Amex,Credit,include,PIN unchanged 10+ yrs,107,0.2662
+Amex,Credit,include,Expired,78,0.194
+Amex,Credit,include,2+ flags (High risk),44,0.1095
+Amex,Credit,include,All 3 flags,3,0.0075
+Amex,Credit,exclude,No chip,29,0.0898
+Amex,Credit,exclude,PIN unchanged 10+ yrs,107,0.3313
+Amex,Credit,exclude,Expired,74,0.2291
+Amex,Credit,exclude,2+ flags (High risk),43,0.1331
+Amex,Credit,exclude,All 3 flags,3,0.0093
+Discover,All,include,No chip,20,0.0957
+Discover,All,include,PIN unchanged 10+ yrs,55,0.2632
+Discover,All,include,Expired,52,0.2488
+Discover,All,include,2+ flags (High risk),24,0.1148
+Discover,All,include,All 3 flags,5,0.0239
+Discover,All,exclude,No chip,19,0.1111
+Discover,All,exclude,PIN unchanged 10+ yrs,55,0.3216
+Discover,All,exclude,Expired,47,0.2749
+Discover,All,exclude,2+ flags (High risk),24,0.1404
+Discover,All,exclude,All 3 flags,5,0.0292
+Discover,Credit,include,No chip,20,0.0957
+Discover,Credit,include,PIN unchanged 10+ yrs,55,0.2632
+Discover,Credit,include,Expired,52,0.2488
+Discover,Credit,include,2+ flags (High risk),24,0.1148
+Discover,Credit,include,All 3 flags,5,0.0239
+Discover,Credit,exclude,No chip,19,0.1111
+Discover,Credit,exclude,PIN unchanged 10+ yrs,55,0.3216
+Discover,Credit,exclude,Expired,47,0.2749
+Discover,Credit,exclude,2+ flags (High risk),24,0.1404
+Discover,Credit,exclude,All 3 flags,5,0.0292
+Mastercard,All,include,No chip,341,0.1063
+Mastercard,All,include,PIN unchanged 10+ yrs,934,0.2911
+Mastercard,All,include,Expired,646,0.2013
+Mastercard,All,include,2+ flags (High risk),356,0.1109
+Mastercard,All,include,All 3 flags,29,0.009
+Mastercard,All,exclude,No chip,274,0.1055
+Mastercard,All,exclude,PIN unchanged 10+ yrs,934,0.3595
+Mastercard,All,exclude,Expired,608,0.234
+Mastercard,All,exclude,2+ flags (High risk),349,0.1343
+Mastercard,All,exclude,All 3 flags,29,0.0112
+Mastercard,Credit,include,No chip,71,0.1118
+Mastercard,Credit,include,PIN unchanged 10+ yrs,192,0.3024
+Mastercard,Credit,include,Expired,133,0.2094
+Mastercard,Credit,include,2+ flags (High risk),74,0.1165
+Mastercard,Credit,include,All 3 flags,5,0.0079
+Mastercard,Credit,exclude,No chip,58,0.1146
+Mastercard,Credit,exclude,PIN unchanged 10+ yrs,192,0.3794
+Mastercard,Credit,exclude,Expired,126,0.249
+Mastercard,Credit,exclude,2+ flags (High risk),73,0.1443
+Mastercard,Credit,exclude,All 3 flags,5,0.0099
+Mastercard,Debit,include,No chip,230,0.105
+Mastercard,Debit,include,PIN unchanged 10+ yrs,636,0.2903
+Mastercard,Debit,include,Expired,423,0.1931
+Mastercard,Debit,include,2+ flags (High risk),231,0.1054
+Mastercard,Debit,include,All 3 flags,21,0.0096
+Mastercard,Debit,exclude,No chip,187,0.1044
+Mastercard,Debit,exclude,PIN unchanged 10+ yrs,636,0.3551
+Mastercard,Debit,exclude,Expired,396,0.2211
+Mastercard,Debit,exclude,2+ flags (High risk),225,0.1256
+Mastercard,Debit,exclude,All 3 flags,21,0.0117
+Mastercard,Debit (Prepaid),include,No chip,40,0.1044
+Mastercard,Debit (Prepaid),include,PIN unchanged 10+ yrs,106,0.2768
+Mastercard,Debit (Prepaid),include,Expired,90,0.235
+Mastercard,Debit (Prepaid),include,2+ flags (High risk),51,0.1332
+Mastercard,Debit (Prepaid),include,All 3 flags,3,0.0078
+Mastercard,Debit (Prepaid),exclude,No chip,29,0.0963
+Mastercard,Debit (Prepaid),exclude,PIN unchanged 10+ yrs,106,0.3522
+Mastercard,Debit (Prepaid),exclude,Expired,86,0.2857
+Mastercard,Debit (Prepaid),exclude,2+ flags (High risk),51,0.1694
+Mastercard,Debit (Prepaid),exclude,All 3 flags,3,0.01
+Visa,All,include,No chip,250,0.1075
+Visa,All,include,PIN unchanged 10+ yrs,686,0.2949
+Visa,All,include,Expired,468,0.2012
+Visa,All,include,2+ flags (High risk),244,0.1049
+Visa,All,include,All 3 flags,21,0.009
+Visa,All,exclude,No chip,192,0.1023
+Visa,All,exclude,PIN unchanged 10+ yrs,686,0.3657
+Visa,All,exclude,Expired,443,0.2361
+Visa,All,exclude,2+ flags (High risk),241,0.1285
+Visa,All,exclude,All 3 flags,21,0.0112
+Visa,Credit,include,No chip,89,0.1097
+Visa,Credit,include,PIN unchanged 10+ yrs,237,0.2922
+Visa,Credit,include,Expired,163,0.201
+Visa,Credit,include,2+ flags (High risk),92,0.1134
+Visa,Credit,include,All 3 flags,10,0.0123
+Visa,Credit,exclude,No chip,64,0.0977
+Visa,Credit,exclude,PIN unchanged 10+ yrs,237,0.3618
+Visa,Credit,exclude,Expired,156,0.2382
+Visa,Credit,exclude,2+ flags (High risk),92,0.1405
+Visa,Credit,exclude,All 3 flags,10,0.0153
+Visa,Debit,include,No chip,140,0.1061
+Visa,Debit,include,PIN unchanged 10+ yrs,393,0.2977
+Visa,Debit,include,Expired,273,0.2068
+Visa,Debit,include,2+ flags (High risk),136,0.103
+Visa,Debit,include,All 3 flags,10,0.0076
+Visa,Debit,exclude,No chip,113,0.1052
+Visa,Debit,exclude,PIN unchanged 10+ yrs,393,0.3659
+Visa,Debit,exclude,Expired,260,0.2421
+Visa,Debit,exclude,2+ flags (High risk),135,0.1257
+Visa,Debit,exclude,All 3 flags,10,0.0093
+Visa,Debit (Prepaid),include,No chip,21,0.1077
+Visa,Debit (Prepaid),include,PIN unchanged 10+ yrs,56,0.2872
+Visa,Debit (Prepaid),include,Expired,32,0.1641
+Visa,Debit (Prepaid),include,2+ flags (High risk),16,0.0821
+Visa,Debit (Prepaid),include,All 3 flags,1,0.0051
+Visa,Debit (Prepaid),exclude,No chip,15,0.102
+Visa,Debit (Prepaid),exclude,PIN unchanged 10+ yrs,56,0.381
+Visa,Debit (Prepaid),exclude,Expired,27,0.1837
+Visa,Debit (Prepaid),exclude,2+ flags (High risk),14,0.0952
+Visa,Debit (Prepaid),exclude,All 3 flags,1,0.0068
