@@ -1,0 +1,5 @@
+card_brand,cards,chip_pct,stale_pin_pct,high_risk_cards,high_risk_pct
+Discover,209,90.4,26.3,24,11.5
+Mastercard,3209,89.4,29.1,356,11.1
+Amex,402,91.3,26.6,44,10.9
+Visa,2326,89.3,29.5,244,10.5

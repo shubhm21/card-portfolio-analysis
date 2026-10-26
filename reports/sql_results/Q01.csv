@@ -1,0 +1,2 @@
+total_cards,clients,cards_per_client,total_credit_limit,avg_credit_limit,chip_pct,stale_pin_pct,expired_pct,dark_web_cards
+6146,2000,3.07,88179698,14347.0,89.5,29.0,20.2,0

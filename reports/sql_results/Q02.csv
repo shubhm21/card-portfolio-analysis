@@ -1,0 +1,9 @@
+card_brand,card_type,cards,pct_of_cards,total_limit,avg_limit
+Mastercard,Debit,2191,35.6,40050847,18280.0
+Visa,Debit,1320,21.5,25105900,19020.0
+Visa,Credit,811,13.2,9160700,11296.0
+Mastercard,Credit,635,10.3,6967000,10972.0
+Amex,Credit,402,6.5,4597400,11436.0
+Mastercard,Debit (Prepaid),383,6.2,24810,65.0
+Discover,Credit,209,3.4,2260600,10816.0
+Visa,Debit (Prepaid),195,3.2,12441,64.0

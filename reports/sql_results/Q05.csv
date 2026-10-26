@@ -1,0 +1,10 @@
+expiry_status,card_type,cards,limit_at_stake
+Active,Debit,2042,37976369
+Active,Credit,1186,12900900
+Active,Debit (Prepaid),317,20276
+Expired,Debit,696,12638895
+Expired,Credit,426,4925800
+Expired,Debit (Prepaid),122,7970
+Expiring within 12 mo,Debit,773,14541483
+Expiring within 12 mo,Credit,445,5159000
+Expiring within 12 mo,Debit (Prepaid),139,9005
